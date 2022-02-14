@@ -1,0 +1,96 @@
+footer {
+    max-width: 100%;
+    background-color: #000;
+    color: #c3c3c3;
+    font-size: 11pt;
+    cursor: pointer;
+    padding: 2rem;
+    font-weight: lighter;
+}
+
+.list-title {
+    color: #fff;
+}
+
+li {
+    list-style-type: none;
+    margin-left: -40px;
+    line-height: 20pt;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    padding: 12px 22px;
+    margin-inline-end: 5px;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.flex-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-list ul li {
+    margin-bottom: 1rem;
+}
+
+.social-media {
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    padding: 15px;
+}
+
+.sm-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 2rem;
+}
+
+.sm-icons *:hover {
+    transform: translateY(3px);
+}
+
+.app-download {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-block: 40px;
+    display: none;
+}
+
+button {
+    margin-inline: 10px;
+}
+
+.copyright {
+    padding: 10px;
+    text-align: center;
+}
+
+.copyright p:last-child {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+.copyright p:last-child:hover {
+    text-decoration: underline 2px;
+}
+
+@media screen and (max-width: 1024px) {
+    footer {
+        
+    }
+}

@@ -1,13 +1,110 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Acumin-Pro, Arial, Helvetica, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container1 {
+  margin: auto;
+  width: min(90%, 85.5rem);
+  padding: 4rem;
+  position: absolute;
+  text-align: center;
+  height: max-content;
+}
+
+.container {
+  margin: auto;
+  width: calc(100% - 506px);
+  max-width: 1791px;
+}
+
+@media screen and (max-width: 1920px) {
+  .container {
+    width: calc(100% - 300px);
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .container {
+    width: calc(100% - 120px);
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .container {
+    width: calc(100% - 100px);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: calc(100% - 100px);
+  }
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* .title {
+  font-size: 25pt;
+  text-align: center;
+  font-weight: 900;
+} */
+
+.btn {
+  min-width: 34.8rem;
+  padding: 1rem;
+  font-size: 2.08rem;
+  margin: 0;
+}
+
+button {
+  max-width: 100%;
+  background-color: #000;
+  color: #fff;
+  font-family: inherit;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  margin: auto;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: translateY(1.5px);
+}
+
+.divider {
+  display: block;
+  border: none;
+  border-top: 0.1px solid #ddd;
+}
+
+
+/* ====================UTILITIES========================= */
+.h-full {
+  height: 100%;
+}
+
+.body-text {
+  font-size: 2rem;
+  line-height: 3.75rem;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
 }

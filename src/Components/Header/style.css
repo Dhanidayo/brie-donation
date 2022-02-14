@@ -1,0 +1,71 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin: auto; 
+    cursor: pointer;
+    padding: 0.75rem 0;
+}
+
+.Logo {
+    width: 5rem;
+    padding-right: 2rem;
+}
+
+.search-container {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    background-color: #ddd;
+}
+
+#searchbox {
+    flex-grow: 1;
+    border: none;
+    padding: 0.75rem 1rem;
+    background-color: transparent;
+}
+
+.search-icon {
+    padding: 0.75rem;
+}
+
+.react-icons-header {
+    font-size: 1.5rem;
+}
+
+.react-icons-header:hover {
+    transform: translateY(1.5px);
+}
+
+.sign-in {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    color: #555;
+}
+
+.sign-in div {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.sign-in div span:first-child {
+    font-size: 0.75rem;
+}
+
+.sign-in p:last-child {
+    font-size: 14px;
+}
+
+.sign-in p:hover {
+    text-decoration: underline 2px;
+}
+
+.cart-icon {
+    background-color: #f5f5f5;
+    padding: 1rem;
+    border-radius: 50%;
+}
