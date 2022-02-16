@@ -13,12 +13,12 @@ const LandingPage = () => {
                 <div className="container h-full">
                     <div className="banner-content-wrapper h-full">
                         <div className="banner-contents">
-                            <h1 className="title">
+                            <h1 className="title heading2">
                                 BECOME A DONATION <br />
                                 PARTNER
                             </h1>
                             <p className="body-text">
-                                Clean out your closet while helping the environment and <br />supporting a cause that matters to you.
+                                Clean out your closet while helping the environment and <br /> supporting a cause that matters to you.
                             </p>
                             <button className="btn">
                                 GET FREE DONATION KIT
@@ -31,36 +31,36 @@ const LandingPage = () => {
             <section id="second-section">
                 <div className="container">
 
-                    <h1 className="sub-title">
+                    <h1 className="sub-title heading2">
                         HOW IT WORKS
                     </h1>
                 
                     <div className="step-cols">
                         <div className="steps">
                             <img src={stepone} alt="a box illustration" className="step-illustration" />
-                            <h2 className="steps-para-head">
+                            <h2 className="steps-para-head heading3">
                                 1. Send us your kit
                             </h2>
                             <p className="body-text">
-                                Select a charity and fill up your box <br /> with your best pre-loved clothing. Get <br />your free label and ship it off.
+                                Select a charity and fill up your box with your best pre-loved clothing. Get your free label and ship it off.
                             </p>
                         </div>
                         <div className="steps">
                             <img src={steptwo} alt="" className="step-illustration" />
-                            <h2 className="steps-para-head">
+                            <h2 className="steps-para-head heading3">
                                 2. Find it a new home
                             </h2>
                             <p className="body-text">
-                                It's as simple as that! Your donations <br /> are listed or responsibly recycled.
+                                It's as simple as that! Your donations are listed or responsibly recycled.
                             </p>
                         </div>
                         <div className="steps">
                             <img src={stepthree} alt="" className="step-illustration"/>
-                            <h2 className="steps-para-head">
+                            <h2 className="steps-para-head heading3">
                                 3. Do so much good
                             </h2>
                             <p className="body-text">
-                                Once your item sell, the charity gets <br /> paid, you keep the environment clean, <br /> and you get a tax deduction.
+                                Once your item sell, the charity gets paid, you keep the environment clean, and you get a tax deduction.
                             </p>
                         </div>
                     </div>
@@ -82,26 +82,26 @@ const LandingPage = () => {
                         <div className="section-texts">
                             {/* <div className="g-rectangle"></div> */}
                             <div>
-                                <h2 className="third-section-header">
+                                <h2 className="third-section-header heading1">
                                     SUPPORT A <br /> NON-PROFIT
                                 </h2>
                                 <p className="body-text">
-                                    Whatever your passion, we strive to partner <br /> with a wide array of organizations that are <br /> breaking barriers everyday, such as feeding <br /> the hungry and fighting breast cancer.<br />
+                                    Whatever your passion, we strive to partner with a wide array of organizations that are breaking barriers everyday, such as feeding the hungry and fighting breast cancer.
                                     <span><a href="https://#">See Charity Payouts</a></span>
                                 </p>
                             </div>
                         </div>
                     </div>
                 
-                    <div className="grid-container">
+                    <div className="grid-container reverse-container">
                         <div className="section-texts">
                             {/* <div className="b-rectangle"></div> */}
                             <div>
-                                <h2 className="third-section-header">
+                                <h2 className="third-section-header heading1">
                                     MAKE AN <br /> ENVIRONMENTAL <br /> IMPACT
                                 </h2>
                                 <p className="body-text">
-                                    The fashion industry is one of the most <br /> polluting industries in the world. Recycling <br /> alone won't solve the fashion waste <br /> problem. Give your used clothes a second <br />life, and support sustainability by reducing <br /> the cost of fashion.
+                                    The fashion industry is one of the most polluting industries in the world. Recycling alone won't solve the fashion waste problem. Give your used clothes a second life, and support sustainability by reducing the cost of fashion.
                                 </p>
                             </div>
                         </div>
@@ -116,11 +116,11 @@ const LandingPage = () => {
                         <div className="section-texts">
                             {/* <div className="g-rectangle"></div> */}
                             <div>
-                                <h2 className="third-section-header">
+                                <h2 className="third-section-header heading1">
                                     BE SELECTIVE
                                 </h2>
                                 <p className="body-text">
-                                    Though we would like to accept all clothing, <br /> we are limited to what we can process. The <br /> better the brand and quality, the greater your <br />charitable payout and tax deduction.
+                                    Though we would like to accept all clothing, we are limited to what we can process. The better the brand and quality, the greater your charitable payout and tax deduction.
                                 </p>
                             </div>
                         </div>
@@ -130,7 +130,7 @@ const LandingPage = () => {
 
 
             <section className="ask-section">
-                <h3>Still have more questions?</h3>
+                <h3 className="heading4">Still have more questions?</h3>
                 <button className="btn faq-btn">
                     VISIT FAQ PAGE
                 </button>

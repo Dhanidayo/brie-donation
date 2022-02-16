@@ -18,11 +18,17 @@
 }
 
 .active {
-    text-decoration: underline 2px;
+    border-bottom: 2px solid black;
 }
 
 .donate-button {
     flex-grow: 2;
     background-color: rgb(236, 229, 243);
     text-align: center;
+}
+
+@media screen and (max-width: 415px) {
+    .navbar {
+        display: none;
+    }
 }

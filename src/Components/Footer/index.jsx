@@ -13,32 +13,35 @@ const Footer = () => {
             <div className="container">
                 <div className="flex-footer">
                     <div className="footer-list">
-                        <h3 className="list-title">BUY</h3>
+                        <h3 className="list-title">BUY <span className="hidden-plus">+</span></h3>
                         <ul>
                             <li><a href="#" className='footer-link'>Order Tracking</a></li>
                             <li><a href="#" className='footer-link'>Shipping & Returns</a></li>
                             <li><a href="#" className='footer-link'>Gift Cards</a></li>
                             <li><a href="#" className='footer-link'>Financing</a></li>
                         </ul>
+                        <hr className='footer-divider' />
                     </div>
                     <div className="footer-list">
                         <h3 className="list-title">SELL</h3>
                         <ul>
-                            <li><a href="#" className='footer-link'>How Selling Works</a></li>
+                            <li className='selling-plus'><a href="#" className='footer-link'>How Selling Works</a> <span className="hidden-plus">+</span></li>
                             <li><a href="#" className='footer-link'>Order Consignment Kit</a></li>
                             <li><a href="#" className='footer-link'>Payouts</a></li>
                             <li><a href="#" className='footer-link'>Clothing We Accept</a></li>
                         </ul>
+                        <hr className='footer-divider' />
                     </div>
                     <div className="footer-list">
-                        <h3 className="list-title">HELP</h3>
+                        <h3 className="list-title">HELP <span className="hidden-plus">+</span></h3>
                         <ul>
                             <li><a href="#" className='footer-link'>FAQ</a></li>
                             <li><a href="#" className='footer-link'>Contact Us</a></li>       
                         </ul>
+                        <hr className='footer-divider' />
                     </div>
                     <div className="footer-list">
-                        <h3 className="list-title">COMPANY</h3>
+                        <h3 className="list-title">COMPANY <span className="hidden-plus">+</span></h3>
                         <ul>
                             <li><a href="#" className='footer-link'>About Us</a></li>
                             <li><a href="#" className='footer-link'>Sustainability</a></li>

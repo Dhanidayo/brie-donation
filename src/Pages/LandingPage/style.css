@@ -7,15 +7,63 @@
     height: 44.188rem;
 }
 
+@media screen and (max-width: 1920px) {
+    #banner {  
+        height: 43.563rem;
+    }
+}
+
+@media screen and (max-width: 1368px) {
+    #banner {  
+        height: 41.813rem;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #banner {  
+        height: 42rem;
+    }
+}
+
+@media screen and (max-width: 834px) {
+    #banner {  
+        height: 59.625rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #banner {  
+        height: 54.625rem;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    #banner {
+        background: url("../../Img-Assets//brie-become-a-donation-partner\(mobile\).jpg") no-repeat center right;
+        height: 39.813rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #banner {  
+        height: 35.75rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #banner {  
+        height: 35.63rem;
+    }
+}
+
+
 .banner-content-wrapper {
     display: flex;
     align-items: center;
 }
 
 .title {
-    font-size: 3.33rem;
     font-weight: 900;
-    line-height: 100%;
     margin-bottom: 0;
 }
 
@@ -24,7 +72,6 @@
 }
 
 .sub-title {
-    font-size: 3.33rem;
     font-weight: 900;
     text-align: center;
 }
@@ -34,6 +81,15 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 3rem;
     align-content: center;
+}
+
+@media screen and (max-width: 415px) {
+    .step-cols {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        align-content: center;
+    }
 }
 
 .steps {
@@ -49,27 +105,66 @@
     margin-bottom: 2rem;
 }
 
-.steps-para-head {
-    font-size: 2.92rem;
-    font-weight: 850;
-    margin: 0;
-    line-height: 50%;
+/* @media screen and (max-width: 1920px) {
+    .step-illustration {
+        width: 297.5px;
+        height: 297.5px;
+        margin-bottom: 2rem;
+    }
+} */
+
+@media screen and (max-width: 1024px) {
+    .step-illustration {
+        width: 265.5px;
+        height: 265.5px;
+        margin-bottom: 2rem;
+    }
 }
 
+@media screen and (max-width: 834px) {
+    .step-illustration {
+        width: 323.02px;
+        height: 323.02px;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .step-illustration {
+        width: 281.15px;
+        height: 281.15px;
+        margin-bottom: 2rem;
+    }
+}
+
+
+.steps-para-head {
+    font-weight: 850;
+    margin: 0;
+    line-height: 100%;
+}
 
 a {
     display: block;
     color: rgb(58, 66, 133);
 }
 
-#third-section {
-
-}
-
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 415px) {
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5rem;
+    }
+
+    .reverse-container {
+        flex-direction: column-reverse;
+    }
 }
 
 .section-images {
@@ -87,6 +182,20 @@ a {
     width: 75%;
 }
 
+@media screen and (max-width: 414px) {
+    .section-texts {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .section-texts div {
+        width: 75%;
+        text-align: left;
+        margin: auto 0;
+    }
+}
+
 .b-rectangle {
     transform: rotate(12deg);
     background-color: #e0dafe;
@@ -100,19 +209,11 @@ a {
 }
 
 .third-section-header {
-    font-size: 4.17rem;
     text-align: left;
-    line-height: 100%;
 }
 
 .ask-section {
     background-color: #dbffab;
     text-align: center;
     padding: 1rem;
-}
-
-.ask-section h3 {
-    line-height: 180%;
-    font-size: 2.5rem;
-    margin: 0;
 }

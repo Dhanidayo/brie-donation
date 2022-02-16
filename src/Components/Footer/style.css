@@ -43,6 +43,10 @@ button {
     margin-bottom: 1rem;
 }
 
+.footer-divider {
+      display: none;  
+}
+
 .social-media {
     width: 100%;
     font-size: 1rem;
@@ -89,8 +93,27 @@ button {
     text-decoration: underline 2px;
 }
 
-@media screen and (max-width: 1024px) {
-    footer {
-        
+.hidden-plus {
+    display: none;
+}
+
+@media screen and (max-width: 415px) {
+    .flex-footer {
+       display: flex;
+       flex-direction: column;
+    }
+
+    .hidden-plus {
+        display: block;
+    }
+
+    .list-title, .selling-plus {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-divider {
+        display: block;
     }
 }
