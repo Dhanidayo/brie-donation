@@ -25,6 +25,12 @@
     }
 }
 
+@media screen and (max-width: 1024px) {
+    #banner {
+        background: url("../../Img-Assets/brie-become-a-donation-partner\(tablet\).jpg") no-repeat center right;
+    }
+}
+
 @media screen and (max-width: 834px) {
     #banner {  
         height: 59.625rem;

@@ -45,7 +45,13 @@ body {
 
 @media screen and (max-width: 834px) {
   .container {
-    width: calc(100%);
+    width: calc(100% - 100px);
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .container {
+    width: calc(100% - 40px);
   }
 }
 
@@ -55,7 +61,7 @@ img {
 }
 
 .btn {
-  min-width: 34.8rem;
+  width: 34.8rem;
   padding: 1rem;
   font-size: 2.08rem;
   margin: 0;
@@ -63,14 +69,14 @@ img {
 
 @media screen and (max-width: 1280px) {
   .btn {
-    min-width: 27.9rem;
+    width: 27.9rem;
     font-size: 1.5rem;
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 415px) {
   .btn {
-    min-width: 24.7rem;
+    width: 18.5rem;
     font-size: 1.3rem;
   }
 }

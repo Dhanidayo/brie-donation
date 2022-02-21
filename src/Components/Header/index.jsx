@@ -1,8 +1,8 @@
 // import { FaFontAwesome } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
-import { FaHeart } from "react-icons/fa";
-import { FaSearch } from "react-icons/fa";
-import { FaCartPlus } from "react-icons/fa";
+import {HiOutlineShoppingCart} from "react-icons/hi";
+import { FaRegHeart, FaRegUser } from "react-icons/fa";
+import { FiSearch } from "react-icons/fi";
 import logo from "../../Img-Assets/Brie-Logo-Vector.svg";
 import "./style.css";
 
@@ -20,15 +20,15 @@ const Header = () => {
         <IconContext.Provider
           value={{ className: "react-icons-header search-icon" }}
         >
-          <FaSearch />
+          <FiSearch />
         </IconContext.Provider>
       </div>
       <IconContext.Provider value={{ className: "react-icons-header" }}>
-        <FaHeart />
+        <FaRegHeart />
       </IconContext.Provider>
       <div className="sign-in">
         <IconContext.Provider value={{ className: "react-icons-header" }}>
-          <FaHeart />
+          <FaRegUser />
         </IconContext.Provider>
         <div>
             <span>Hello, Sign in</span>
@@ -38,7 +38,7 @@ const Header = () => {
       <IconContext.Provider
         value={{ className: "react-icons-header cart-icon" }}
       >
-        <FaCartPlus />
+        <HiOutlineShoppingCart />
       </IconContext.Provider>
     </header>
   );

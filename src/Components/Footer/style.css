@@ -2,7 +2,7 @@ footer {
     max-width: 100%;
     background-color: #000;
     color: #c3c3c3;
-    font-size: 11pt;
+    font-size: 1rem;
     cursor: pointer;
     padding: 2rem;
     font-weight: lighter;
@@ -25,13 +25,6 @@ li:hover {
 .footer-link {
     text-decoration: none;
     color: inherit;
-}
-
-button {
-    padding: 12px 22px;
-    margin-inline-end: 5px;
-    font-size: 12pt;
-    font-weight: bold;
 }
 
 .flex-footer {
@@ -66,10 +59,6 @@ button {
 }
 
 .app-download {
-    text-align: center;
-    width: 60%;
-    margin: auto;
-    margin-block: 40px;
     display: none;
 }
 
@@ -88,7 +77,6 @@ button {
     gap: 1rem;
 }
 
-
 .copyright p:last-child:hover {
     text-decoration: underline 2px;
 }
@@ -97,7 +85,56 @@ button {
     display: none;
 }
 
+@media screen and (max-width: 1024px) {
+    .app-download {
+        text-align: center;
+        margin: auto;
+        display: block;
+    }
+
+    .store-icons {
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        margin: auto;
+        padding: 2rem 0rem;
+    }
+
+    .store-icons img {
+        width: 15rem;
+        border: 2px solid #000;
+        border-radius: 10px;
+    }
+
+    .store-icons img:hover {
+        transform: translateX(3px);
+    }
+}
+
+@media screen and (max-width: 835px) {
+    .store-icons img {
+        padding: 0.4rem;
+    }
+
+    .sm-icons * {
+        width: 1.5rem;
+    }
+
+    .app-download {
+        margin-top: 2rem;
+    }
+
+    .store-icons {
+        padding: 0;
+    }
+}
+
 @media screen and (max-width: 415px) {
+    footer {
+        font-size: 0.9rem;
+    }
+
     .flex-footer {
        display: flex;
        flex-direction: column;
@@ -115,5 +152,19 @@ button {
 
     .footer-divider {
         display: block;
+    }
+
+    .store-icons img {
+        width: 8rem;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    footer, .social-media {
+        font-size: 0.7rem;
+    }
+
+    .sm-icons * {
+        width: 1.2rem;
     }
 }

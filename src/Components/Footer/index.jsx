@@ -1,11 +1,12 @@
 import './style.css';
-import { FontAwesome } from "react-icons/fa";
+import GooglePlay from "../../Img-Assets/play-store-icon.jpg";
+import AppStore from "../../Img-Assets/app-store-icon.jpg";
 import { IconContext } from 'react-icons';
-import { FaInstagram } from 'react-icons/fa';
+import { CgInstagram } from 'react-icons/cg';
 import { FaTiktok } from 'react-icons/fa';
-import { FaYoutube } from 'react-icons/fa';
-import { FaFacebook } from 'react-icons/fa';
-import { FaTwitter } from 'react-icons/fa';
+import { CgYoutube } from 'react-icons/cg';
+import { FiFacebook } from 'react-icons/fi';
+import { FiTwitter } from 'react-icons/fi';
 
 const Footer = () => {
     return (
@@ -57,11 +58,11 @@ const Footer = () => {
                     <p>Follow Us</p>
                     <IconContext.Provider value={{ style: {width: ''}}}>
                         <div className="sm-icons">
-                            <FaInstagram />
+                            <CgInstagram />
                             <FaTiktok />
-                            <FaYoutube />
-                            <FaFacebook />
-                            <FaTwitter />
+                            <CgYoutube />
+                            <FiFacebook />
+                            <FiTwitter />
                         </div>
                     </IconContext.Provider>
                 </div>
@@ -69,8 +70,10 @@ const Footer = () => {
 
                 <div className="app-download">
                     <p>Download the App</p>
-                    <button>App Store</button>
-                    <button>Google Play</button>
+                    <div className="store-icons">
+                        <img src={AppStore} alt="" />
+                        <img src={GooglePlay} alt="" />
+                    </div>
                 </div>
 
                 <div className="copyright">

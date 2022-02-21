@@ -7,6 +7,18 @@
     padding: 0.75rem 0;
 }
 
+@media screen and (max-width: 1000px) {
+    .navbar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .navbar {
+        display: none;
+    }
+}
+
 .navbar a, .donate-button {
     flex-grow: 1;
     color: #555;
@@ -18,17 +30,11 @@
 }
 
 .active {
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid #000;
 }
 
 .donate-button {
     flex-grow: 2;
     background-color: rgb(236, 229, 243);
     text-align: center;
-}
-
-@media screen and (max-width: 415px) {
-    .navbar {
-        display: none;
-    }
 }
