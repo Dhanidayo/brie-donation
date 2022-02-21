@@ -16,39 +16,39 @@ const Footer = () => {
                     <div className="footer-list">
                         <h3 className="list-title">BUY <span className="hidden-plus">+</span></h3>
                         <ul>
-                            <li><a href="#" className='footer-link'>Order Tracking</a></li>
-                            <li><a href="#" className='footer-link'>Shipping & Returns</a></li>
-                            <li><a href="#" className='footer-link'>Gift Cards</a></li>
-                            <li><a href="#" className='footer-link'>Financing</a></li>
+                            <li><a href="#banner" className='footer-link'>Order Tracking</a></li>
+                            <li><a href="#banner" className='footer-link'>Shipping & Returns</a></li>
+                            <li><a href="#banner" className='footer-link'>Gift Cards</a></li>
+                            <li><a href="#banner" className='footer-link'>Financing</a></li>
                         </ul>
                         <hr className='footer-divider' />
                     </div>
                     <div className="footer-list">
                         <h3 className="list-title">SELL</h3>
                         <ul>
-                            <li className='selling-plus'><a href="#" className='footer-link'>How Selling Works</a> <span className="hidden-plus">+</span></li>
-                            <li><a href="#" className='footer-link'>Order Consignment Kit</a></li>
-                            <li><a href="#" className='footer-link'>Payouts</a></li>
-                            <li><a href="#" className='footer-link'>Clothing We Accept</a></li>
+                            <li className='selling-plus'><a href="#banner" className='footer-link'>How Selling Works</a> <span className="hidden-plus">+</span></li>
+                            <li><a href="#banner" className='footer-link'>Order Consignment Kit</a></li>
+                            <li><a href="#banner" className='footer-link'>Payouts</a></li>
+                            <li><a href="#banner" className='footer-link'>Clothing We Accept</a></li>
                         </ul>
                         <hr className='footer-divider' />
                     </div>
                     <div className="footer-list">
                         <h3 className="list-title">HELP <span className="hidden-plus">+</span></h3>
                         <ul>
-                            <li><a href="#" className='footer-link'>FAQ</a></li>
-                            <li><a href="#" className='footer-link'>Contact Us</a></li>       
+                            <li><a href="#banner" className='footer-link'>FAQ</a></li>
+                            <li><a href="#banner" className='footer-link'>Contact Us</a></li>       
                         </ul>
                         <hr className='footer-divider' />
                     </div>
                     <div className="footer-list">
                         <h3 className="list-title">COMPANY <span className="hidden-plus">+</span></h3>
                         <ul>
-                            <li><a href="#" className='footer-link'>About Us</a></li>
-                            <li><a href="#" className='footer-link'>Sustainability</a></li>
-                            <li><a href="#" className='footer-link'>Press</a></li>
-                            <li><a href="#" className='footer-link'>Vohnt Editorial</a></li>
-                            <li><a href="#" className='footer-link'>Careers</a></li>
+                            <li><a href="#banner" className='footer-link'>About Us</a></li>
+                            <li><a href="#banner" className='footer-link'>Sustainability</a></li>
+                            <li><a href="#banner" className='footer-link'>Press</a></li>
+                            <li><a href="#banner" className='footer-link'>Vohnt Editorial</a></li>
+                            <li><a href="#banner" className='footer-link'>Careers</a></li>
                         </ul>
                     </div>
                 </div>
