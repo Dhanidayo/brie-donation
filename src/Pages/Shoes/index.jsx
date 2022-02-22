@@ -1,6 +1,8 @@
 const Shoes = () => {
     return (
-        <h2>Shoes Component</h2>
+        <div className="container">
+            <h2>Shoes Component</h2>
+        </div>
     );
 }
  

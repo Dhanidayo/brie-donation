@@ -1,6 +1,5 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import DefaultLayout from "./Components/Layout";
-import LandingPage from "./Pages/LandingPage";
 import Clothing from "./Pages/Clothing";
 import Shoes from "./Pages/Shoes";
 import Handbags from "./Pages/Handbags";
@@ -14,15 +13,14 @@ function App() {
     <BrowserRouter>
         <DefaultLayout>
           <Routes>
-            <Route path="/" element={<LandingPage />} />
-            <Route path="/Clothing" element={<Clothing />} />
-            <Route path="/Shoes" element={<Shoes />} />
-            <Route path="/Handbags" element={<Handbags />} />
-            <Route path="/Accessories" element={<Accessories />} />
-            <Route path="/MysteryBoxes" element={<MysteryBoxes />} />
-            <Route path="/Sustainability" element={<Sustainability />} />
-            <Route path="/OurImpact" element={<OurImpact />} />
-            <Route path="/LandingPage" element={<LandingPage />} />
+            <Route path="/shoes" element={<Shoes />} />
+            <Route path="/handbags" element={<Handbags />} />
+            <Route path="/accessories" element={<Accessories />} />
+            <Route path="/mystery-boxes" element={<MysteryBoxes />} />
+            <Route path="/sustainability" element={<Sustainability />} />
+            <Route path="/our-impact" element={<OurImpact />} />
+            <Route path="/clothing" element={<Clothing />} />
+            <Route path="/" element={<Navigate replace to="/clothing" />} />
           </Routes>
         </DefaultLayout>
     </BrowserRouter>

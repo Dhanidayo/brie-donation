@@ -1,6 +1,8 @@
 const Handbags = () => {
     return (
-        <h2>Handbags Component</h2>
+        <div className="container">
+            <h2>Handbags Component</h2>
+        </div>
     );
 }
  

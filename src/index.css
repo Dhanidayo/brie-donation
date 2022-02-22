@@ -13,43 +13,43 @@ body {
   max-width: 1791px;
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1922px) {
   .container {
     width: calc(100% - 300px);
   }
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1442px) {
   .container {
     width: calc(100% - 120px);
   }
 }
 
-@media screen and (max-width: 1368px) {
+@media screen and (max-width: 1370px) {
   .container {
     width: calc(100% - 276px);
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1282px) {
   .container {
     width: calc(100% - 100px);
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1026px) {
   .container {
     width: calc(100% - 100px);
   }
 }
 
-@media screen and (max-width: 834px) {
+@media screen and (max-width: 836px) {
   .container {
     width: calc(100% - 100px);
   }
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 416px) {
   .container {
     width: calc(100% - 40px);
   }
@@ -67,14 +67,14 @@ img {
   margin: 0;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1282px) {
   .btn {
     width: 27.9rem;
     font-size: 1.5rem;
   }
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 416px) {
   .btn {
     width: 18.5rem;
     font-size: 1.3rem;
@@ -114,28 +114,34 @@ button:hover {
   line-height: 3.75rem;
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1922px) {
   .body-text {
     font-size: 2.08rem;
     line-height: 3.75rem;
   }
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1442px) {
   .body-text {
     font-size: 1.67rem;
     line-height: 2.92rem;
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1282px) {
   .body-text {
     font-size: 1.5rem;
     line-height: 2.92rem;
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 836px) {
+  .body-text {
+    line-height: 2.25rem;
+  }
+}
+
+@media screen and (max-width: 416px) {
   .body-text {
     font-size: 1.33rem;
     line-height: 2.33rem;
@@ -175,7 +181,7 @@ button:hover {
   font-size: 2.5rem;
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1922px) {
   .heading1 {
     font-size: 3.33rem;
     line-height: 3.33rem;
@@ -194,7 +200,7 @@ button:hover {
   }
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1442px) {
   .heading1 {
     font-size: 2.9rem;
     line-height: 3.33rem;
@@ -213,7 +219,7 @@ button:hover {
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1282px) {
   .heading1 {
     font-size: 2.5rem;
     line-height: 2.92rem;
@@ -232,14 +238,15 @@ button:hover {
   }
 }
 
-@media screen and (max-width: 834px) {
+@media screen and (max-width: 836px) {
   .heading1 {
     font-size: 2.08rem;
     line-height: 2.08rem;
   }
 
   .heading2 {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
+    line-height: 2.25rem;
   }
   
   .heading3 {
@@ -251,7 +258,7 @@ button:hover {
   }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 416px) {
   .heading1 {
     font-size: 2.08rem;
     line-height: 2.08rem;

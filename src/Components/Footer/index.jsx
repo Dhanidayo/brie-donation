@@ -78,7 +78,7 @@ const Footer = () => {
 
                 <div className="copyright">
                     <p>&copy;2022 Vohnt. All Rights Reserved.</p>
-                    <p><span>Privacy Policy</span> | <span>Terms of Use</span> | <span>Accessibility</span></p>
+                    <p><span className='copyright-link'>Privacy Policy</span> | <span className='copyright-link'>Terms of Use</span> | <span className='copyright-link'>Accessibility</span></p>
                 </div>
             </div>
         </footer>

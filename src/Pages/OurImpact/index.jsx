@@ -1,6 +1,8 @@
 const OurImpact = () => {
     return (
-        <h2>Our Impact Component</h2>
+        <div className="container">
+            <h2>Our Impact Component</h2>
+        </div>
     );
 }
  

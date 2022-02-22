@@ -3,62 +3,78 @@
 }
 
 #banner {
-    background: url("../../Img-Assets/brie-become-a-donation-partner(desktop).jpg") no-repeat center right;
+    background: url("../../Img-Assets/brie-become-a-donation-partner(desktop).jpg") no-repeat right center;
+    background-size: cover;
+    background-color: #eff2f9;
     height: 44.188rem;
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1922px) {
     #banner {  
         height: 43.563rem;
     }
 }
 
-@media screen and (max-width: 1368px) {
+@media screen and (max-width: 1442px) {
+    #banner {
+        background: url("../../Img-Assets/brie-become-a-donation-partner(tablet).jpg") no-repeat right center;
+        background-size: cover;
+        background-color: #eff2f9;
+        height: 43.562rem;
+    }
+}
+
+@media screen and (max-width: 1370px) {
     #banner {  
         height: 41.813rem;
     }
 }
 
-@media screen and (max-width: 1280px) {
-    #banner {  
+@media screen and (max-width: 1282px) {
+    #banner {
         height: 42rem;
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1026px) {
     #banner {
-        background: url("../../Img-Assets/brie-become-a-donation-partner\(tablet\).jpg") no-repeat center right;
+        background: url("../../Img-Assets/brie-become-a-donation-partner(tablet).jpg") no-repeat right center;
+        background-size: cover;
+        background-color: #eff2f9;
+        height: 42rem;
     }
 }
 
-@media screen and (max-width: 834px) {
+@media screen and (max-width: 836px) {
     #banner {  
-        height: 59.625rem;
+        background: url("../../Img-Assets//brie-become-a-donation-partner(mobile).jpg") no-repeat center bottom;
+        background-size: cover;
+        background-color: #eff2f9;
+        height: 60.625rem;
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 802px) {
     #banner {  
         height: 54.625rem;
     }
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 416px) {
     #banner {
-        background: url("../../Img-Assets//brie-become-a-donation-partner\(mobile\).jpg") no-repeat center right;
-        height: 39.813rem;
+        height: 41.813rem;
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 377px) {
     #banner {  
-        height: 35.75rem;
+        height: 38.75rem;
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 362px) {
     #banner {  
-        height: 35.63rem;
+        height: 38.63rem;
     }
 }
 
@@ -66,6 +82,17 @@
 .banner-content-wrapper {
     display: flex;
     align-items: center;
+}
+
+@media screen and (max-width: 836px) {
+    .banner-content-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-contents {
+        text-align: center;
+    }
 }
 
 .title {
@@ -89,7 +116,7 @@
     align-content: center;
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 416px) {
     .step-cols {
         display: grid;
         grid-template-columns: 1fr;
@@ -111,15 +138,7 @@
     margin-bottom: 2rem;
 }
 
-/* @media screen and (max-width: 1920px) {
-    .step-illustration {
-        width: 297.5px;
-        height: 297.5px;
-        margin-bottom: 2rem;
-    }
-} */
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1026px) {
     .step-illustration {
         width: 265.5px;
         height: 265.5px;
@@ -127,7 +146,7 @@
     }
 }
 
-@media screen and (max-width: 834px) {
+@media screen and (max-width: 836px) {
     .step-illustration {
         width: 323.02px;
         height: 323.02px;
@@ -135,7 +154,7 @@
     }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 416px) {
     .step-illustration {
         width: 281.15px;
         height: 281.15px;
@@ -161,7 +180,7 @@ a {
     margin-bottom: 5rem;
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 416px) {
     .grid-container {
         display: flex;
         flex-direction: column;
@@ -183,7 +202,7 @@ a {
     width: 75%;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 416px) {
     .section-texts {
         display: flex;
         justify-content: center;

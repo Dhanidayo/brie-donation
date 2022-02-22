@@ -13,7 +13,7 @@
     }
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 416px) {
     .navbar {
         display: none;
     }
@@ -29,8 +29,8 @@
     text-align: left;
 }
 
-.active {
-    border-bottom: 3px solid #000;
+a.active {
+    text-decoration: underline 3px;
 }
 
 .donate-button {

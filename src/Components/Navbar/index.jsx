@@ -5,25 +5,25 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-          <NavLink activeClassName="active" to="/LandingPage">
+          <NavLink activeClassName="active" to="/clothing">
             CLOTHING
           </NavLink>
-          <NavLink activeClassName="active" to="/Shoes">
+          <NavLink activeClassName="active" to="/shoes">
             SHOES
           </NavLink>
-          <NavLink activeClassName="active" to="/Handbags">
+          <NavLink activeClassName="active" to="/handbags">
             HANDBAGS
           </NavLink>
-          <NavLink activeClassName="active" to="/Accessories">
+          <NavLink activeClassName="active" to="/accessories">
             ACCESSORIES
           </NavLink>
-          <NavLink activeClassName="active" to="/MysteryBoxes">
+          <NavLink activeClassName="active" to="/mystery-boxes">
             MYSTERY BOXES
           </NavLink>
-          <NavLink activeClassName="active" to="Sustainability">
+          <NavLink activeClassName="active" to="sustainability">
             SUSTAINABILITY
           </NavLink>
-          <NavLink activeClassName="active" to="/OurImpact">
+          <NavLink activeClassName="active" to="/our-impact">
             OUR IMPACT
           </NavLink>
           <button className="donate-button">
