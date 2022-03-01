@@ -1,19 +1,19 @@
-import Header from "../Header";
-import Navbar from "../Navbar";
-import Footer from "../Footer";
+// import Header from "../Header";
+// import Navbar from "../Navbar";
+// import Footer from "../Footer";
 
 const DefaultLayout = ({ children }) => {
     return (
         <>
-            <div className="container">
+            {/* <div className="container">
                 <Header />
             </div>
-            <hr className="divider" />
-            <div className="container">
-                <Navbar />
-            </div>
+            <hr className="divider" /> */}
+            {/* <div className="container"> */}
+                {/* <Navbar /> */}
+            {/* </div> */}
                 { children }
-            <Footer />
+            {/* <Footer /> */}
         </>
     );
 }
