@@ -12,7 +12,7 @@ body {
   margin: auto;
   width: calc(100% - 506px);
   max-width: 1791px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 @media screen and (max-width: 1922px) {
