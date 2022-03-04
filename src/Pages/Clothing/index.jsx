@@ -76,10 +76,10 @@ const Clothing = () => {
             <section id="third-section">
                 <div className="container">
                     <div className="grid-container">
-                        <div className="section-images">
+                        <div className="section-images cols">
                             <img src={hands} alt="two hands forming the shape of love" />
                         </div>
-                        <div className="section-texts">
+                        <div className="section-texts cols">
                             {/* <div className="g-rectangle"></div> */}
                             <div>
                                 <h2 className="third-section-header heading1">
@@ -94,7 +94,7 @@ const Clothing = () => {
                     </div>
                 
                     <div className="grid-container reverse-container">
-                        <div className="section-texts">
+                        <div className="section-texts cols">
                             {/* <div className="b-rectangle"></div> */}
                             <div>
                                 <h2 className="third-section-header heading1">
@@ -105,15 +105,15 @@ const Clothing = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="section-images">
+                        <div className="section-images cols">
                             <img src={plant} alt="" />
                         </div>
                     </div>
                     <div className="grid-container">
-                        <div className="section-images">
+                        <div className="section-images cols">
                             <img src={hanger} alt="" />
                         </div>
-                        <div className="section-texts">
+                        <div className="section-texts cols">
                             {/* <div className="g-rectangle"></div> */}
                             <div>
                                 <h2 className="third-section-header heading1">

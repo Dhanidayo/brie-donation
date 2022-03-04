@@ -1,16 +1,18 @@
 html {
-  font-size: 14px;
+  /* font-size: 14px; */
+  font-size: 16px;
 }
 
 body {
   margin: 0;
-  font-family: Acumin-Pro, Arial, Helvetica, sans-serif;
+  font-family: Acumin-Pro-Wide, Arial, Helvetica, sans-serif;
 }
 
 .container {
   margin: auto;
   width: calc(100% - 506px);
   max-width: 1791px;
+  border: 2px solid red;
 }
 
 @media screen and (max-width: 1922px) {
@@ -61,23 +63,23 @@ img {
 }
 
 .btn {
-  width: 34.8rem;
+  width: 26.125rem;
   padding: 1rem;
-  font-size: 2.08rem;
+  font-size: 1.5625rem;
   margin: 0;
 }
 
 @media screen and (max-width: 1282px) {
   .btn {
-    width: 27.9rem;
-    font-size: 1.5rem;
+    width: 20.94rem;
+    font-size: 1.125rem;
   }
 }
 
 @media screen and (max-width: 416px) {
   .btn {
     width: 18.5rem;
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 }
 
@@ -110,41 +112,41 @@ button:hover {
 }
 
 .body-text {
-  font-size: 2rem;
-  line-height: 3.75rem;
+  font-size: 1.5625rem;
+  line-height: 2.8125rem;
 }
 
 @media screen and (max-width: 1922px) {
   .body-text {
-    font-size: 2.08rem;
-    line-height: 3.75rem;
+    font-size: 1.5625rem;
+    line-height: 2.8125rem;
   }
 }
 
 @media screen and (max-width: 1442px) {
   .body-text {
-    font-size: 1.67rem;
-    line-height: 2.92rem;
+    font-size: 1.25rem;
+    line-height: 2.1875rem;
   }
 }
 
 @media screen and (max-width: 1282px) {
   .body-text {
-    font-size: 1.5rem;
-    line-height: 2.92rem;
+    font-size: 1.125rem;
+    line-height: 2.1875rem;
   }
 }
 
 @media screen and (max-width: 836px) {
   .body-text {
-    line-height: 2.25rem;
+    line-height: 2.1875rem;
   }
 }
 
 @media screen and (max-width: 416px) {
   .body-text {
-    font-size: 1.33rem;
-    line-height: 2.33rem;
+    font-size: 1rem;
+    line-height: 1.75rem;
   }
 }
 
@@ -165,114 +167,114 @@ button:hover {
 }
 
 .heading1 {
-  font-size: 4.2rem;
-  line-height: 4.2rem;
+  font-size: 3.125rem;
+  line-height: 3.125rem;
 }
 
 .heading2 {
-  font-size: 3.33rem;
+  font-size: 2.5rem;
 }
 
 .heading3 {
-  font-size: 2.9rem;
+  font-size: 2.1875rem;
 }
 
 .heading4 {
-  font-size: 2.5rem;
+  font-size: 1.875rem;
 }
 
 @media screen and (max-width: 1922px) {
   .heading1 {
-    font-size: 3.33rem;
-    line-height: 3.33rem;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
   }
 
   .heading2 {
-    font-size: 3.33rem;
+    font-size: 2.5rem;
   }
   
   .heading3 {
-    font-size: 2.9rem;
+    font-size: 2.1875rem;
   }
   
   .heading4 {
-    font-size: 2.5rem;
+    font-size: 1.875rem;
   }
 }
 
 @media screen and (max-width: 1442px) {
   .heading1 {
-    font-size: 2.9rem;
-    line-height: 3.33rem;
+    font-size: 2.1875rem;
+    line-height: 2.5rem;
   }
 
   .heading2 {
-    font-size: 2.9rem;
+    font-size: 2.1875rem;
   }
   
   .heading3 {
-    font-size: 2.08rem;
+    font-size: 1.5625rem;
   }
   
   .heading4 {
-    font-size: 2.08rem;
+    font-size: 1.5625rem;
   }
 }
 
 @media screen and (max-width: 1282px) {
   .heading1 {
-    font-size: 2.5rem;
-    line-height: 2.92rem;
+    font-size: 1.875rem;
+    line-height: 2.1875rem;
   }
 
   .heading2 {
-    font-size: 2.5rem;
+    font-size: 1.875rem;
   }
   
   .heading3 {
-    font-size: 2.08rem;
+    font-size: 1.5625rem;
   }
   
   .heading4 {
-    font-size: 2.08rem;
+    font-size: 1.5625rem;
   }
 }
 
 @media screen and (max-width: 836px) {
   .heading1 {
-    font-size: 2.08rem;
-    line-height: 2.08rem;
+    font-size: 1.5625rem;
+    line-height: 1.5625rem;
   }
 
   .heading2 {
-    font-size: 2.25rem;
-    line-height: 2.25rem;
+    font-size: 1.875rem;
+    /* line-height: 2.25rem; */
   }
   
   .heading3 {
-    font-size: 2.08rem;
+    font-size: 1.5625rem;
   }
   
   .heading4 {
-    font-size: 2.08rem;
+    font-size: 1.5625rem;
   }
 }
 
 @media screen and (max-width: 416px) {
   .heading1 {
-    font-size: 2.08rem;
-    line-height: 2.08rem;
+    font-size: 1.5625rem;
+    line-height: 1.5625rem;
   }
 
   .heading2 {
-    font-size: 2.08rem;
+    font-size: 1.5625rem;
   }
   
-  .heading3 {
-    font-size: 1.67rem;
+  .heading3, .heading4 {
+    font-size: 1.25rem;
   }
-  
-  .heading4 {
-    font-size: 1.67rem;
-  }
+}
+
+.cols {
+  width: 100%;
 }

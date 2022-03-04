@@ -80,8 +80,10 @@
 
 
 .banner-content-wrapper {
+    /* width: 60%; */
     display: flex;
     align-items: center;
+    border: 2px solid yellow;
 }
 
 @media screen and (max-width: 836px) {
@@ -177,7 +179,8 @@ a {
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 5rem;
+    align-items: center;
+    border: 2px solid yellow;
 }
 
 @media screen and (max-width: 416px) {
