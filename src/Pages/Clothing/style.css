@@ -227,6 +227,21 @@
     } 
 }
 
+@media screen and (max-width: 376px) {
+    .bodytext--primary {
+        display: none;
+    }
+
+    .bodytext--nobreak {
+        display: block;
+        font-size: 1rem;
+    }
+    
+    .bodytext--secondary {
+        display: none;
+    } 
+}
+
 .title {
     font-weight: 800;
     margin-bottom: 0;
