@@ -20,6 +20,9 @@ const Clothing = () => {
                             <p className="body-text bodytext--primary">
                                 Clean out your closet while helping the environment and <br /> supporting a cause that matters to you.
                             </p>
+                            <p className="body-text bodytext--nobreak">
+                                Clean out your closet while helping the environment and supporting a cause that matters to you.
+                            </p>
                             <p className="body-text bodytext--secondary">
                                 Clean out your closet while helping the <br />environment and supporting a cause <br />that matters to you.
                             </p>
