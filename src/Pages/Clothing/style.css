@@ -148,10 +148,50 @@
     }
 }
 
-@media screen and (max-width: 836px) {
+/* @media screen and (max-width: 836px) {
     .step-illustration {
         width: 323.02px;
         height: 323.02px;
+        margin-bottom: 2rem;
+    }
+} */
+
+@media screen and (max-width: 802px) {
+    .step-illustration {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .step-illustration {
+        width: 180px;
+        height: 180px;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 616px) {
+    .step-illustration {
+        width: 160px;
+        height: 160px;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 526px) {
+    .step-illustration {
+        width: 140px;
+        height: 140px;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .step-illustration {
+        width: 120px;
+        height: 120px;
         margin-bottom: 2rem;
     }
 }
