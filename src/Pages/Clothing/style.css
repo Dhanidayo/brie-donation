@@ -206,7 +206,7 @@
 
 
 .steps-para-head {
-    font-weight: 850;
+    font-weight: 800;
     margin: 0;
     line-height: 100%;
 }
@@ -222,6 +222,16 @@ a {
     align-items: center;
     /* border: 2px solid yellow; */
 }
+
+.grid-container + .grid-container {
+    margin: 4rem 0;
+}
+
+@media screen and (max-width: 800px) {
+    .grid-container + .grid-container {
+        margin: 2rem 0;
+    }
+} 
 
 @media screen and (max-width: 416px) {
     .grid-container {
@@ -273,6 +283,7 @@ a {
 
 .third-section-header {
     text-align: left;
+    font-weight: 800;
 }
 
 .ask-section {

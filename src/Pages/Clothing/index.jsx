@@ -75,7 +75,7 @@ const Clothing = () => {
 
             <section id="third-section">
                 <div className="container">
-                    <div className="grid-container">
+                    <div className="grid-container ">
                         <div className="section-images cols">
                             <img src={hands} alt="two hands forming the shape of love" />
                         </div>
