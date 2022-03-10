@@ -91,7 +91,8 @@ img {
 
 @media screen and (max-width: 321px) {
   .btn {
-    width: 16rem;
+    width: 15rem;
+    font-size: .85rem;
   }
 }
 
@@ -162,11 +163,16 @@ button:hover {
   }
 }
 
+@media screen and (max-width: 770px) {
+  .body-text {
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
+}
+
 @media screen and (max-width: 416px) {
   .body-text {
-    /* font-size: 1rem; */
-    font-size: 1.125rem;
-    /* line-height: 1.75rem; */
+    font-size: 1rem;
     line-height: 2rem;
   }
 }
@@ -178,10 +184,16 @@ button:hover {
   }
 }
 
+@media screen and (max-width: 362px) {
+  .body-text {
+    font-size: .9rem;
+    line-height: 1.85rem;
+  }
+}
+
 @media screen and (max-width: 321px) {
   .body-text {
-    font-size: 1rem;
-    line-height: 1.85rem;
+    font-size: .87rem;
   }
 }
 
@@ -305,8 +317,8 @@ button:hover {
 
 @media screen and (max-width: 601px) {
   .heading1 {
-    font-size: 1.5rem;
-    line-height: 1.5rem;
+    font-size: 1.3rem;
+    line-height: 1.7rem;
   }
 
   .heading2 {
@@ -340,8 +352,52 @@ button:hover {
   .heading2 {
     font-size: 1.365rem;
   }
+
+  .heading4 {
+    font-size: 1.09rem;
+  }
 } 
 
 .cols {
   width: 100%;
+}
+
+@media screen and (max-width: 836px) {
+  .line-height--small {
+    line-height: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 602px) {
+  .line-height--small {
+    font-size: .9rem;
+    line-height: 1.15rem;
+  }
+}
+
+@media screen and (max-width: 416px) {
+  .line-height--small {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .line-height--small {
+    font-size: 1rem;
+    line-height: 1.85rem;
+  }
+}
+
+@media screen and (max-width: 362px) {
+  .line-height--small {
+    font-size: .9rem;
+    line-height: 1.85rem;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .line-height--small {
+    font-size: .87rem;
+  }
 }

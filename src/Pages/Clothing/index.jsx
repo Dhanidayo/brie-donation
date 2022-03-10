@@ -93,12 +93,12 @@ const Clothing = () => {
                         </div>
                         <div className="section-texts cols">
                             {/* <div className="g-rectangle"></div> */}
-                            <div className="m-left-auto">
+                            <div className="padding-m">
                                 <h2 className="third-section-header heading1">
                                     SUPPORT A <br /> NON-PROFIT
                                 </h2>
-                                <p className="body-text">
-                                    Whatever your passion, we strive to partner with a wide array of organizations that are breaking barriers everyday, such as feeding the hungry and fighting breast cancer.
+                                <p className="body-text line-height--small ">
+                                    Whatever your passion, we strive to partner with a wide array of organizations that are breaking barriers every day, such as feeding the hungry and fighting breast cancer.
                                     <span><a href="https://#">See Charity Payouts</a></span>
                                 </p>
                             </div>
@@ -108,13 +108,15 @@ const Clothing = () => {
                     <div className="grid-container reverse-container">
                         <div className="section-texts cols">
                             {/* <div className="b-rectangle"></div> */}
-                            <div className="m-right-auto">
-                                <h2 className="third-section-header heading1">
-                                    MAKE AN <br /> ENVIRONMENTAL <br /> IMPACT
-                                </h2>
-                                <p className="body-text">
-                                    The fashion industry is one of the most polluting industries in the world. Recycling alone won't solve the fashion waste problem. Give your used clothes a second life, and support sustainability by reducing the cost of fashion.
-                                </p>
+                            <div className="padding-s">
+                                <div>
+                                    <h2 className="third-section-header heading1">
+                                        MAKE AN <br /> ENVIRONMENTAL <br /> IMPACT
+                                    </h2>
+                                    <p className="body-text line-height--small">
+                                        The fashion industry is one of the most polluting industries in the world. Recycling alone won't solve the fashion waste problem. Give your used clothes a second life, and support sustainability by reducing the cost of fashion.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                         <div className="section-images cols">
@@ -127,11 +129,11 @@ const Clothing = () => {
                         </div>
                         <div className="section-texts cols">
                             {/* <div className="g-rectangle"></div> */}
-                            <div className="m-left-auto">
+                            <div className="padding-l">
                                 <h2 className="third-section-header heading1">
                                     BE SELECTIVE
                                 </h2>
-                                <p className="body-text">
+                                <p className="body-text line-height--small">
                                     Though we would like to accept all clothing, we are limited to what we can process. The better the brand and quality, the greater your charitable payout and tax deduction.
                                 </p>
                             </div>
