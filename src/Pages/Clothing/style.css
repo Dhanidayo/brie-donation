@@ -76,7 +76,7 @@
     }
 }
 
-@media screen and (max-width: 377px) {
+@media screen and (max-width: 385px) {
     #banner {  
         height: 38.75rem;
     }
@@ -85,6 +85,12 @@
 @media screen and (max-width: 362px) {
     #banner {  
         height: 38.63rem;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    #banner {  
+        overflow-x: hidden;
     }
 }
 
@@ -97,7 +103,7 @@
 
 @media screen and (max-width: 1602px) {
     .banner-contents {
-        margin-left: -2em;
+        /* margin-left: -2em; */
     }
 }
 
@@ -225,7 +231,7 @@
     }
 } */
 
-@media screen and (max-width: 1368px) {
+@media screen and (max-width: 1370px) {
     .bodytext--primary {
         display: none;
     }
@@ -235,12 +241,12 @@
     }
 
     .bodytext--onebreak {
-        display: block;
+        display: none;
     }
     
     .bodytext--secondary {
-        display: none;
-        font-size: 1.525rem;
+        display: block;
+        font-size: 1.25rem;
     }
 }
 
@@ -497,6 +503,21 @@
     }
 }
 
+@media screen and (max-width: 385px) {
+    .step-illustration {
+        width: 255px;
+        height: 255px;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .step-illustration {
+        width: 235px;
+        height: 235px;
+        margin-bottom: 1rem;
+    }
+}
 
 .steps-para-head {
     font-weight: 800;
@@ -571,6 +592,13 @@ a {
 
 .section-images {
     width: 100%;
+}
+
+@media screen and (max-width: 416px) {
+    .section-images {
+        width: 90%;
+        margin: auto;
+    }
 }
 
 .section-texts {

@@ -111,9 +111,15 @@ img {
   }
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 385px) {
   .btn {
     width: 15rem;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .btn {
     font-size: .85rem;
   }
 }
@@ -221,10 +227,10 @@ button:hover {
   }
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 385px) {
   .body-text {
-    font-size: 1rem;
-    line-height: 1.85rem;
+    font-size: .9rem;
+    line-height: 1.7rem;
   }
 }
 
@@ -238,6 +244,7 @@ button:hover {
 @media screen and (max-width: 321px) {
   .body-text {
     font-size: .87rem;
+    line-height: 1.5rem;
   }
 }
 
@@ -454,13 +461,27 @@ button:hover {
   }
 }
 
+@media screen and (max-width: 385px) {
+  .heading1 {
+    font-size: 1.125rem;
+  }
+
+  .heading2, .heading3 {
+    font-size: 1.125rem;
+  }
+
+  .heading4 {
+    font-size: 1.09rem;
+  }
+} 
+
 @media screen and (max-width: 321px) {
   .heading1 {
     font-size: 1.125rem;
   }
 
   .heading2 {
-    font-size: 1.125rem;
+    font-size: 1.025rem;
   }
 
   .heading4 {
@@ -492,19 +513,19 @@ button:hover {
   }
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 385px) {
   .line-height--small {
-    font-size: 1rem;
-    line-height: 1.85rem;
+    font-size: .9rem;
+    line-height: 1.7rem;
   }
 }
 
-@media screen and (max-width: 362px) {
+/* @media screen and (max-width: 362px) {
   .line-height--small {
     font-size: .9rem;
     line-height: 1.85rem;
   }
-}
+} */
 
 @media screen and (max-width: 321px) {
   .line-height--small {
