@@ -38,10 +38,11 @@
 
 @media screen and (max-width: 1026px) {
     #banner {
-        background: url("../../Img-Assets/brie-become-a-donation-partner(tablet).jpg") no-repeat right center;
+        background: url("../../Img-Assets/brie-become-a-donation-partner(tablet).jpg") no-repeat right;
         background-size: cover;
         background-color: #eff2f9;
-        height: 42rem;
+        /* height: 42rem; */
+        height: 28rem;
     }
 }
 
@@ -56,13 +57,22 @@
 
 @media screen and (max-width: 802px) {
     #banner {  
-        height: 54.625rem;
+        /* height: 54.625rem; */
+        height: 55rem;
+    }
+}
+
+@media screen and (max-width: 602px) {
+    #banner {  
+        /* height: 54.625rem; */
+        height: 44rem;
     }
 }
 
 @media screen and (max-width: 416px) {
     #banner {
-        height: 41.813rem;
+        /* height: 41.813rem; */
+        height: 40rem;
     }
 }
 
@@ -83,7 +93,19 @@
     /* width: 60%; */
     display: flex;
     align-items: center;
-    /* border: 2px solid yellow; */
+}
+
+@media screen and (max-width: 1602px) {
+    .banner-contents {
+        margin-left: -2em;
+    }
+}
+
+@media screen and (max-width: 1442px) {
+    .banner-contents {
+        /* border: 2px solid gray; */
+        padding: 4em;
+    }
 }
 
 
@@ -99,6 +121,12 @@
     }
 }
 
+@media screen and (max-width: 802px) {
+    .banner-content-wrapper {
+        padding-top: .1rem;
+    }
+}
+
 @media screen and (max-width: 660px) {
     .banner-content-wrapper {
         padding-top: 5rem;
@@ -107,13 +135,13 @@
 
 @media screen and (max-width: 602px) {
     .banner-content-wrapper {
-        padding-top: 8em;
+        padding-top: 0;
     }
 }
 
 @media screen and (max-width: 416px) {
     .banner-content-wrapper {
-        padding-top: 3em;
+        margin-top: -2em;
     }
 }
 
@@ -125,18 +153,38 @@
     display: none;
 }
 
+.bodytext--onebreak {
+    display: none;
+}
+
 @media screen and (max-width: 1920px) {
     .bodytext--primary {
-        display: block;
+        display: none;
     }
 
     .bodytext--secondary {
         display: none;
     }
+
+    .bodytext--nobreak {
+        display: none;
+    }
+
+    .bodytext--onebreak {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 1681px) {
     .bodytext--primary {
+        display: none;
+    }
+
+    .bodytext--nobreak {
+        display: none;
+    }
+
+    .bodytext--onebreak {
         display: none;
     }
     
@@ -149,29 +197,65 @@
 @media screen and (max-width: 1442px) {
     .bodytext--primary {
         display: block;
-        font-size: 1.525rem;
+        font-size: 1.3rem;
     }
-    
+
+    .bodytext--nobreak {
+        display: none;
+    }
+
+    .bodytext--onebreak {
+        display: none;
+
+    }
+
     .bodytext--secondary {
         display: none;
     }
 }
 
+/* @media screen and (max-width: 1402px) {
+    .bodytext--primary {
+        display: none;
+    }
+
+    .bodytext--secondary {
+        display: block;
+        font-size: 1.525rem;
+    }
+} */
+
 @media screen and (max-width: 1368px) {
     .bodytext--primary {
         display: none;
     }
+
+    .bodytext--nobreak {
+        display: none;
+    }
+
+    .bodytext--onebreak {
+        display: block;
+    }
     
     .bodytext--secondary {
-        display: block;
+        display: none;
         font-size: 1.525rem;
     }
 }
 
 @media screen and (max-width: 1282px) {
     .bodytext--primary {
-        display: block;
+        display: none;
         font-size: 1.25rem;
+    }
+
+    .bodytext--onebreak {
+        display: block;
+    }
+
+    .bodytext--nobreak {
+        display: none;
     }
     
     .bodytext--secondary {
@@ -179,14 +263,22 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1026px) {
     .bodytext--primary {
         display: none;
     }
+
+    .bodytext--nobreak {
+        display: none;
+    }
+
+    .bodytext--onebreak {
+        display: block;
+        font-size: 1.1rem;
+    }
     
     .bodytext--secondary {
-        display: block;
-        font-size: 1.125rem;
+        display: none;
     }
 }
 
@@ -195,12 +287,18 @@
         display: block;
     }
 
-    /* .bodytext--nobreak {
-        display: block;
-    } */
+    .bodytext--onebreak {
+        display: none;
+    }
     
     .bodytext--secondary {
         display: none;
+    }
+}
+
+@media screen and (max-width: 836px) {
+    .bodytext--primary {
+        font-size: 1.1rem;
     }
 }
 
@@ -225,7 +323,7 @@
 
     .bodytext--nobreak {
         display: block;
-        font-size: 1.125rem;
+        font-size: 1rem;
     }
     
     .bodytext--secondary {
@@ -422,6 +520,37 @@ a {
     margin-top: 0;
 }
 
+/* @media screen and (max-width: 1920px) {
+    .grid-container {
+        margin: -1em;
+    }
+
+    .grid-container:last-child {
+        margin-bottom: 3em;
+    }
+}
+
+@media screen and (max-width: 1682px) {
+    .grid-container {
+        margin: -5em;
+    }
+
+    .grid-container:first-child {
+        margin-top: -2em;
+    }
+
+    .grid-container:last-child {
+        margin-bottom: 2em;
+    }
+}
+
+@media screen and (max-width: 1602px) {
+    .grid-container {
+        margin: -6em;
+    }
+}
+ */
+
 @media screen and (max-width: 800px) {
     .grid-container {
         margin: 2rem 0;
@@ -456,6 +585,34 @@ div.padding-l {
     width: 90%;
     padding: 14.55em 10em;
 
+}
+
+@media screen and (max-width: 1920px) {
+    div.padding-m {
+        padding: 9em 7em;
+    }
+
+    div.padding-s {
+        padding: 7em 7.5em;
+    }
+
+    div.padding-l {
+        padding: 10em 7.5em;
+    }
+}
+
+@media screen and (max-width: 1602px) {
+    div.padding-m {
+        padding: 5em 7em;
+    }
+
+    div.padding-s {
+        padding: 6em 7.5em;
+    }
+
+    div.padding-l {
+        padding: 8em 7.5em;
+    }
 }
 
 @media screen and (max-width: 1442px) {
@@ -600,4 +757,11 @@ div.padding-l {
     background-color: #dbffab;
     text-align: center;
     padding: 1rem;
+}
+
+@media screen and (max-width: 602px) {
+    .step-body-cols {
+        /* padding-right: 1em; */
+        /* border: 2px solid green; */
+    }
 }

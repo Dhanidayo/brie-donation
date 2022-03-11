@@ -17,8 +17,14 @@ const Clothing = () => {
                                 BECOME A DONATION <br />
                                 PARTNER
                             </h1>
+                            {/* <h1 className=" title title--nobreak heading2">
+                                    BECOME A DONATION PARTNER
+                            </h1> */}
                             <p className="body-text bodytext--primary">
                                 Clean out your closet while helping the environment and <br /> supporting a cause that matters to you.
+                            </p>
+                            <p className="body-text bodytext--onebreak">
+                                Clean out your closet while helping the environment <br />and supporting a cause that matters to you.
                             </p>
                             <p className="body-text bodytext--nobreak">
                                 Clean out your closet while helping the environment and supporting a cause that matters to you.
@@ -48,7 +54,7 @@ const Clothing = () => {
                                 <h2 className="steps-para-head heading3">
                                     1. Send us your kit
                                 </h2>
-                                <p className="body-text cols">
+                                <p className="body-text step-body-cols cols">
                                     Select a charity and fill up your box with your best pre-loved clothing. Get your free label and ship it off.
                                 </p>
                             </div>
@@ -59,7 +65,7 @@ const Clothing = () => {
                                 <h2 className="steps-para-head heading3">
                                     2. Find it a new home
                                 </h2>
-                                <p className="body-text cols">
+                                <p className="body-text step-body-cols cols">
                                     It's as simple as that! Your donations are listed or responsibly recycled.
                                 </p>
                             </div>
@@ -70,7 +76,7 @@ const Clothing = () => {
                                 <h2 className="steps-para-head heading3">
                                     3. Do so much good
                                 </h2>
-                                <p className="body-text cols">
+                                <p className="body-text step-body-cols cols">
                                     Once your item sell, the charity gets paid, you keep the environment clean, and you get a tax deduction.
                                 </p>
                             </div>

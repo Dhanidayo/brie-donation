@@ -69,6 +69,20 @@ img {
   margin: 0;
 }
 
+@media screen and (max-width: 1682px) {
+  .btn {
+    width: 26rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1442px) {
+  .btn {
+    width: 22rem;
+    font-size: 1.2rem;
+  }
+}
+
 @media screen and (max-width: 1282px) {
   .btn {
     width: 20.94rem;
@@ -76,9 +90,17 @@ img {
   }
 }
 
-@media screen and (max-width: 601px) {
+@media screen and (max-width: 802px) {
   .btn {
     width: 18rem;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 602px) {
+  .btn {
+    width: 18rem;
+    font-size: .8rem;
   }
 }
 
@@ -136,6 +158,13 @@ button:hover {
   }
 }
 
+@media screen and (max-width: 1682px) {
+  .body-text {
+    font-size: 1.425rem;
+    line-height: 2.6125rem;
+  }
+}
+
 @media screen and (max-width: 1442px) {
   .body-text {
     font-size: 1.25rem;
@@ -150,25 +179,40 @@ button:hover {
   }
 }
 
+@media screen and (max-width: 1026px) {
+  .body-text {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+}
+
 @media screen and (max-width: 836px) {
   .body-text {
+    font-size: .9rem;
     line-height: 2.1875rem;
   }
 }
 
-@media screen and (max-width: 801px) {
+@media screen and (max-width: 802px) {
   .body-text {
-    font-size: 1.025rem;
+    font-size: .9rem;
     line-height: 1.85rem;
   }
 }
 
 @media screen and (max-width: 770px) {
   .body-text {
-    font-size: 1rem;
+    font-size: .8rem;
     line-height: 1.6rem;
   }
 }
+
+/* @media screen and (max-width: 602px) {
+  .body-text {
+    font-size: .75rem;
+    line-height: 1.6rem;
+  }
+} */
 
 @media screen and (max-width: 416px) {
   .body-text {
@@ -257,6 +301,12 @@ button:hover {
   }
 }
 
+@media screen and (max-width: 1602px) {
+  .heading3 {
+    font-size: 2rem;
+  }
+}
+
 @media screen and (max-width: 1442px) {
   .heading1 {
     font-size: 2.1875rem;
@@ -295,6 +345,20 @@ button:hover {
   }
 }
 
+@media screen and (max-width: 1026px) {
+  .heading1, .heading2 {
+    font-size: 1.7rem;
+  }
+
+  .heading3 {
+    font-size: 1.4rem;
+  }
+  
+  .heading4 {
+    font-size: 1.425rem;
+  }
+}
+
 @media screen and (max-width: 836px) {
   .heading1 {
     font-size: 1.5625rem;
@@ -311,32 +375,78 @@ button:hover {
   }
   
   .heading4 {
-    font-size: 1.5625rem;
+    font-size: 1.425rem;
   }
 }
 
-@media screen and (max-width: 601px) {
+@media screen and (max-width: 802px) {
+  .heading1 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+  .heading2 {
+    font-size: 1.8rem;
+    /* line-height: 2.25rem; */
+  }
+  
+  .heading3 {
+    font-size: 1.4rem;
+  }
+  
+  .heading4 {
+    font-size: 1.425rem;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .heading1 {
+    font-size: 1.425rem;
+    line-height: 1.425rem;
+  }
+
+  .heading2 {
+    font-size: 1.7rem;
+    /* line-height: 2.25rem; */
+  }
+  
+  .heading3 {
+    font-size: 1.325rem;
+  }
+  
+  .heading4 {
+    font-size: 1.325rem;
+  }
+}
+
+@media screen and (max-width: 602px) {
   .heading1 {
     font-size: 1.3rem;
     line-height: 1.7rem;
   }
 
   .heading2 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
+
   .heading3 {
-    font-size: 1.125rem;
+    font-size: 1rem;
+  }
+
+  .heading4 {
+    font-size: 1.2rem;
   }
 }
 
 @media screen and (max-width: 416px) {
   .heading1 {
-    font-size: 1.5625rem;
+    font-size: 1.4rem;
     line-height: 1.5625rem;
   }
 
   .heading2 {
-    font-size: 1.5625rem;
+    /* font-size: 1.5625rem; */
+    font-size: 1.4rem;
   }
   
   .heading3, .heading4 {
@@ -346,11 +456,11 @@ button:hover {
 
 @media screen and (max-width: 321px) {
   .heading1 {
-    font-size: 1.3125rem;
+    font-size: 1.125rem;
   }
 
   .heading2 {
-    font-size: 1.365rem;
+    font-size: 1.125rem;
   }
 
   .heading4 {
@@ -370,7 +480,7 @@ button:hover {
 
 @media screen and (max-width: 602px) {
   .line-height--small {
-    font-size: .9rem;
+    font-size: .8rem;
     line-height: 1.15rem;
   }
 }
