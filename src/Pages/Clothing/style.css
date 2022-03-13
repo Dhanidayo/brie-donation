@@ -786,6 +786,31 @@ div.padding-l {
     }
 }
 
+@media screen and (max-width: 1370px) {
+    .b-rectangle {
+        padding: 1em 8em;
+        transform: rotate(-12deg);
+        background-color: #e0dafe;
+        position: absolute;
+        z-index: -1;
+        margin-top: 3em;
+    }
+    
+    .g-rectangle {
+        padding: 1em 6.5em;
+        background-color: #dbffab;
+        transform: rotate(-12deg);
+        position: absolute;
+        z-index: -1;
+        margin-top: 3em;
+    }
+    
+    .second-g-rectangle {
+        padding: 1em 7.5em;
+        margin-top: 1.5em;
+    }
+}
+
 @media screen and (max-width: 1282px) {
     .b-rectangle {
         padding: 1em 6em;
@@ -793,7 +818,7 @@ div.padding-l {
         background-color: #e0dafe;
         position: absolute;
         z-index: -1;
-        margin-top: 3em;
+        margin-top: 2.8em;
     }
     
     .g-rectangle {
@@ -807,7 +832,7 @@ div.padding-l {
     
     .second-g-rectangle {
         padding: 1em 6.5em;
-        margin-top: 1.5em;
+        margin-top: 1.2em;
     }
 }
 
@@ -832,7 +857,32 @@ div.padding-l {
     
     .second-g-rectangle {
         padding: 1em 5em;
-        margin-top: 1em;
+        margin-top: .7em;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .b-rectangle {
+        padding: 1em 5em;
+        transform: rotate(-12deg);
+        background-color: #e0dafe;
+        position: absolute;
+        z-index: -1;
+        margin-top: 1.2em;
+    }
+    
+    .g-rectangle {
+        padding: 1em 5em;
+        background-color: #dbffab;
+        transform: rotate(-12deg);
+        position: absolute;
+        z-index: -1;
+        margin-top: 1.2em;
+    }
+    
+    .second-g-rectangle {
+        padding: 1em 5em;
+        margin-top: .4em;
     }
 }
 
