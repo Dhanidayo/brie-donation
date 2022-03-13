@@ -1,0 +1,65 @@
+.about-page {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fffcf2;
+}
+
+#biege-section {
+    background-color: #fffcf2;
+    width: 100%;
+    height: 835px;
+}
+
+.biege-section-content {
+    margin: 0 auto;
+    padding: 1em;
+    text-align: center;
+    max-width: 1200px;
+}
+
+.neon-bg {
+    background-color: #dbffab;
+    width: 35%;
+    margin: auto;
+}
+
+.player-thumbnail {
+    width: 1064px;
+    height: 598px;
+}
+
+.mission-text {
+    /* background-color: burlywood; */
+    width: 38%;
+    margin: 0 auto;
+    text-align: center;
+    /* line-height: 1.3rem; */
+}
+
+.lilac-bg {
+    background-color: #e0dafe;
+    /* width: 54%;
+    margin: 0 auto; */
+}
+
+.mission-para {
+    margin-top: 3em;
+}
+
+.body-text--big {
+    font-size: 2rem;
+    font-weight: 250;
+    line-height: .1rem;
+}
+
+.dyk-section {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* .dyk-body-text {
+    font-size: 2rem;
+    font-weight: 250;
+} */

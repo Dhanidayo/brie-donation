@@ -91,18 +91,19 @@ const Clothing = () => {
             </section>
 
 
-            <section id="third-section">
+            <section className="third-section">
                 <div className="container">
                     <div className="grid-container ">
                         <div className="section-images cols">
                             <img src={hands} alt="two hands forming the shape of love" />
                         </div>
                         <div className="section-texts cols">
-                            {/* <div className="g-rectangle"></div> */}
                             <div className="padding-m">
-                                <h2 className="third-section-header heading1">
-                                    SUPPORT A <br /> NON-PROFIT
-                                </h2>
+                                <div className="g-rectangle"></div>
+                                    <h2 className="third-section-header heading1">
+                                        SUPPORT A <br /> NON-PROFIT
+                                    </h2>
+                                    
                                 <p className="body-text line-height--small ">
                                     Whatever your passion, we strive to partner with a wide array of organizations that are breaking barriers every day, such as feeding the hungry and fighting breast cancer.
                                     <span><a href="https://#">See Charity Payouts</a></span>
@@ -113,9 +114,9 @@ const Clothing = () => {
                 
                     <div className="grid-container reverse-container">
                         <div className="section-texts cols">
-                            {/* <div className="b-rectangle"></div> */}
                             <div className="padding-s">
                                 <div>
+                                    <div className="b-rectangle"></div>
                                     <h2 className="third-section-header heading1">
                                         MAKE AN <br /> ENVIRONMENTAL <br /> IMPACT
                                     </h2>
@@ -134,8 +135,8 @@ const Clothing = () => {
                             <img src={hanger} alt="" />
                         </div>
                         <div className="section-texts cols">
-                            {/* <div className="g-rectangle"></div> */}
                             <div className="padding-l">
+                                <div className="g-rectangle second-g-rectangle"></div>
                                 <h2 className="third-section-header heading1">
                                     BE SELECTIVE
                                 </h2>

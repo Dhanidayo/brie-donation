@@ -7,6 +7,7 @@ import Accessories from "./Pages/Accessories";
 import MysteryBoxes from "./Pages/MysteryBoxes";
 import Sustainability from "./Pages/Sustainability";
 import OurImpact from "./Pages/OurImpact";
+import About from "./Pages/About";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/sustainability" element={<Sustainability />} />
             <Route path="/our-impact" element={<OurImpact />} />
             <Route path="/clothing" element={<Clothing />} />
+            <Route path="/about" element={<About />} />
             <Route path="/" element={<Navigate replace to="/clothing" />} />
           </Routes>
         </DefaultLayout>
