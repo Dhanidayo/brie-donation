@@ -237,7 +237,7 @@
 
 @media screen and (max-width: 416px) {
     .mission__body-text {
-        width: 70%;
+        width: 75%;
         font-size: 1rem;
     }
 }
@@ -468,39 +468,39 @@
 
 @media screen and (max-width: 770px) {
     .grid-body-text--about1 {
-        padding: 0 3em 0;
+        padding: 0 2em 0;
     }
 
     .grid-body-text--about2 {
-        padding: 0 4em 0;
+        padding: 0 1.5em 0;
     }
 
     .grid-body-text--about3 {
-        padding: 0 4em 0;
+        padding: 0 3em 0;
     }
 }
 
 @media screen and (max-width: 602px) {
     .grid-body-text--about1 {
-        padding: 0 2em 0;
-    }
-
-    .grid-body-text--about2 {
         padding: 0 1em 0;
     }
 
+    .grid-body-text--about2 {
+        padding: 0 .1em;
+    }
+
     .grid-body-text--about3 {
-        padding: 0 2em 0;
+        padding: 0 1em 0;
     }
 }
 
 @media screen and (max-width: 416px) {
     .grid-body-text--about1 {
-        padding: 1em 4em 0;
+        padding: 1em 3em 0;
     }
 
     .grid-body-text--about2 {
-        padding: 1em 4em 0;
+        padding: 1em 3em 0;
     }
 
     .grid-body-text--about3 {
@@ -710,9 +710,23 @@
     line-height: .1rem;
 }
 
-@media screen and (max-width: 836px) {
+@media screen and (max-width: 1026px) {
     .body-text--big {
         font-size: 1.5625rem;
+        font-weight: 200;
+    }
+}
+
+@media screen and (max-width: 836px) {
+    .body-text--big {
+        font-size: 1.5rem;
+        font-weight: 200;
+    }
+}
+
+@media screen and (max-width: 802px) {
+    .body-text--big {
+        font-size: 1.4rem;
         font-weight: 200;
     }
 }
@@ -726,13 +740,15 @@
 
 @media screen and (max-width: 602px) {
     .body-text--big {
-        font-size: 1.2rem;
+        font-size: 1.0525rem;
         font-weight: 200;
     }
 }
 
 @media screen and (max-width: 416px) {
     .body-text--big {
+        width: 80%;
+        margin: .7em auto;
         font-size: 1.375rem;
         font-weight: lighter;
         line-height: 1.5em;
@@ -815,6 +831,12 @@
 @media screen and (max-width: 802px) {
     .dyk__body-text {
         width: 80%;
+    }
+}
+
+@media screen and (max-width: 779px) {
+    .dyk__body-text {
+        width: 85%;
     }
 }
 
