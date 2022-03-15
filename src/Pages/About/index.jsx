@@ -16,7 +16,7 @@ const About = () => {
                                 OUR STORY
                             </h2>
                         </div>
-                        <p className="body-text grid-body-text">
+                        <p className="body-text grid-body-text main-para--about">
                             We are an online thrift store that empowers giving
                         </p>
                         <div id="player-wrapper">
