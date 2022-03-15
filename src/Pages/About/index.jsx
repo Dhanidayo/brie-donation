@@ -1,3 +1,4 @@
+import { useEffect, useRef} from "react";
 import ReactPlayer from "react-player";
 import "./style.css";
 import playerthumbnail from "../../Img-Assets/brie-our-story-video-image.jpg";
@@ -6,6 +7,15 @@ import onlyoneearth from "../../Img-Assets/brie-only-one-earth.jpg";
 import thrillingandaffordable from "../../Img-Assets/brie-thrilling-and-affordable.jpg";
 
 const About = () => {
+    // const [index, setIndex] = useState(0);
+    const playerRef = useRef(null);
+
+    useEffect(() => {
+        if (playerRef) {
+            playerRef.current.showPreview();
+        }    
+    }, [])
+    
     return (
         <div className="about-page">
             <div id="biege-section">
@@ -19,13 +29,17 @@ const About = () => {
                         <p className="body-text grid-body-text main-para--about">
                             We are an online thrift store that empowers giving
                         </p>
-                        <div id="player-wrapper">
-                            <img src={playerthumbnail} alt="" className="player-thumbnail" />
+                        <div className="player-wrapper">
+                            {/* <img src={playerthumbnail} alt="" className="player-thumbnail" /> */}
                             <ReactPlayer
+                             ref={playerRef}
                              className="react-player"
-                             url={"../../video/mov_bbb.mp4"}
-                             width="1064px"
-                             height="598px"                 
+                             url={"https://youtu.be/I10XB1-IIbA"}
+                             playing
+                             width="100%"
+                             height="100%"
+                             controls={false}
+                             light={playerthumbnail}              
                             />
                         </div>
                     </div>

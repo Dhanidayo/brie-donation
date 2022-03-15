@@ -5,11 +5,13 @@
     background-color: #fffcf2;
 }
 
-.front-rectangle-text {
-    z-index: 1;
-    position: absolute;
-    margin: .8em auto;
-    width: 100%;
+@media screen and (max-width: 416px) {
+    .front-rectangle-text {
+        z-index: 1;
+        position: absolute;
+        margin: .8em auto;
+        width: 100%;
+    }
 }
 
 .main-para--about {
@@ -31,17 +33,18 @@
 
 @media screen and (max-width: 1922px) {
     #biege-section {
-        height: 709px;
-    }
-}
-
-@media screen and (max-width: 1682px) {
-    #biege-section {
+        /* height: 709px; */
         height: 835px;
     }
 }
 
-@media screen and (max-width: 1682px) {
+@media screen and (max-width: 1602px) {
+    #biege-section {
+        height: 850px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
     #biege-section {
         height: 709px;
     }
@@ -92,13 +95,13 @@
 
 @media screen and (max-width: 376px) {
     #biege-section {
-        height: 375px;
+        height: 385px;
     }
 }
 
 @media screen and (max-width: 362px) {
     #biege-section {
-        height: 360px;
+        height: 400px;
     }
 }
 
@@ -127,73 +130,73 @@
     }
 }
 
-.player-thumbnail {
+.player-wrapper {
+    position: relative;
     width: 1064px;
     height: 598px;
+    margin: auto;
+}
+
+.react-player {
+    top: 0;
+    left: 0;
+    position: absolute;
 }
 
 @media screen and (max-width: 1442px) {
-    .player-thumbnail {
+    .player-wrapper {
         width: 858px;
         height: 482px;
     }
 }
 
 @media screen and (max-width: 836px) {
-    .player-thumbnail {
+    .player-wrapper {
         width: 100%;
         height: 469px;
     }
 }
 
 @media screen and (max-width: 802px) {
-    .player-thumbnail {
+    .player-wrapper {
         width: 100%;
         height: 450px;
     }
 }
 
 @media screen and (max-width: 770px) {
-    .player-thumbnail {
+    .player-wrapper {
         width: 100%;
         height: 432px;
     }
 }
 
 @media screen and (max-width: 602px) {
-    .player-thumbnail {
+    .player-wrapper {
         width: 100%;
         height: 365px;
     }
 }
 
 @media screen and (max-width: 416px) {
-    .player-thumbnail {
+    .player-wrapper {
         width: 100%;
         height: 232.88px;
     }
 }
 
 @media screen and (max-width: 376px) {
-    .player-thumbnail {
+    .player-wrapper {
         width: 100%;
         height: 210.94px;
     }
 }
 
 @media screen and (max-width: 362px) {
-    .player-thumbnail {
+    .player-wrapper {
         width: 100%;
         height: 202.5px;
     }
-}
-
-.react-player {
-    border: 3px solid red;
-    position: absolute;
-    margin-left: 4.1em;
-    margin-top: -37.7em;
-    display: none;
 }
 
 .mission-text {
