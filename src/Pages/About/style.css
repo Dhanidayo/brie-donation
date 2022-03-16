@@ -620,6 +620,10 @@
     .grid-body-text--about2 {
         padding: 1em 1.8em 0 2em;
     }
+
+    .grid-body-text--about3 {
+        padding: 1em 1.8em 0 2em;
+    }
 }
 
 @media screen and (max-width: 362px) {
