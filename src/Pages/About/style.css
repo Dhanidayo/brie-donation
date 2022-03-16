@@ -280,7 +280,7 @@
 @media screen and (max-width: 836px) {
     .mission__body-text {
         width: 100%;
-        font-size: 1rem;
+        font-size: 1.125rem;
     }
 }
 
@@ -352,7 +352,7 @@
 
 @media screen and (max-width: 836px) {
     .grid-body-text {
-        font-size: 1rem;
+        font-size: 1.125rem;
         line-height: 2rem;
     }
 }
@@ -518,7 +518,7 @@
 
 @media screen and (max-width: 836px) {
     .grid-body-text--about1 {
-        padding: 0 3em 0;
+        padding: 0 2em 0;
     }
 
     .grid-body-text--about2 {
@@ -526,7 +526,7 @@
     }
 
     .grid-body-text--about3 {
-        padding: 0 5em 0 3em;
+        padding: 0 3.5em 0 2em;
     }
 }
 
@@ -540,7 +540,7 @@
     }
 
     .grid-body-text--about3 {
-        padding: 0 3em 0;
+        padding: 0 3em 0 2.5em;
     }
 
     .container {
@@ -550,15 +550,15 @@
 
 @media screen and (max-width: 770px) {
     .grid-body-text--about1 {
-        padding: 0 2.5em 0;
+        padding: 0 2em 0;
     }
 
     .grid-body-text--about2 {
-        padding: 0 2.5em 0;
+        padding: 0 2.5em 0 2em;
     }
 
     .grid-body-text--about3 {
-        padding: 0 2.5em 0;
+        padding: 0 2em 0;
     }
 
     .container {
@@ -568,15 +568,15 @@
 
 @media screen and (max-width: 662px) {
     .grid-body-text--about1 {
-        padding: 0 .5em 0 2em;
+        padding: 0 1em;
     }
 
     .grid-body-text--about2 {
-        padding: 0 2em 0 .8em;
+        padding: 0 .8em;
     }
 
     .grid-body-text--about3 {
-        padding: 0 .5em 0 2em;
+        padding: 0 2.5em 0 1em;
     }
 
     .container {
@@ -586,15 +586,15 @@
 
 @media screen and (max-width: 602px) {
     .grid-body-text--about1 {
-        padding: 0 1em 0;
+        padding: 0 .8em;
     }
 
     .grid-body-text--about2 {
-        padding: 0 1em;
+        padding: 0 .8em;
     }
 
     .grid-body-text--about3 {
-        padding: 0 1em 0 1em;
+        padding: 0 .8em;
     }
 
     .container {
