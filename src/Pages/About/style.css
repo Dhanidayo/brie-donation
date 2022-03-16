@@ -540,7 +540,7 @@
     }
 
     .grid-body-text--about3 {
-        padding: 0 3em 0;
+        padding: 0 2em 0 3em;
     }
 
     .container {
@@ -594,7 +594,7 @@
     }
 
     .grid-body-text--about3 {
-        padding: 0 .8em;
+        padding: 0 .1em 0 .8em;
     }
 
     .container {
