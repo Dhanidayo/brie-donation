@@ -622,7 +622,8 @@
     }
 
     .grid-body-text--about3 {
-        padding: 1em 1.8em 0 2em;
+        padding: 1em 1.5em 0 2em;
+        /* border: 2px solid red; */
     }
 }
 
