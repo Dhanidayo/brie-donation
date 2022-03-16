@@ -62,6 +62,12 @@
     }
 }
 
+@media screen and (max-width: 1026px) {
+    #biege-section {
+        height: 556px;
+    }
+}
+
 @media screen and (max-width: 836px) {
     #biege-section {
         height: 630px;
@@ -147,6 +153,13 @@
     .player-wrapper {
         width: 858px;
         height: 482px;
+    }
+}
+
+@media screen and (max-width: 1026px) {
+    .player-wrapper {
+        width: 660px;
+        height: 370px;
     }
 }
 
@@ -353,8 +366,8 @@
 
 @media screen and (max-width: 602px) {
     .grid-body-text {
-        font-size: .9rem;
-        line-height: 1.5rem;
+        font-size: 1rem;
+        line-height: 1.8rem;
     }
 }
 
@@ -520,7 +533,7 @@
     }
 
     .grid-body-text--about3 {
-        padding: 0 2em 0;
+        padding: 0 5em 0 3em;
     }
 }
 
@@ -548,7 +561,7 @@
     }
 
     .grid-body-text--about3 {
-        padding: 0 3em 0;
+        padding: 0 4em 0 2em;
     }
 }
 
@@ -558,11 +571,15 @@
     }
 
     .grid-body-text--about2 {
-        padding: 0 .1em 0;
+        padding: 0 2em 0 .8em;
     }
 
     .grid-body-text--about3 {
-        padding: 0 1.5em 0 2em;
+        padding: 0 .5em 0 2em;
+    }
+
+    .container {
+        width: 100%;
     }
 }
 
@@ -572,11 +589,15 @@
     }
 
     .grid-body-text--about2 {
-        padding: 0 .1em;
+        padding: 0 1em;
     }
 
     .grid-body-text--about3 {
-        padding: 0 1em 0;
+        padding: 0 1em 0 1em;
+    }
+
+    .container {
+        width: 100%;
     }
 }
 

@@ -39,7 +39,8 @@ const About = () => {
                              width="100%"
                              height="100%"
                              controls={false}
-                             light={playerthumbnail}              
+                             light={playerthumbnail}
+                             playIcon             
                             />
                         </div>
                     </div>
