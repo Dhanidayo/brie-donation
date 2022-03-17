@@ -323,6 +323,12 @@
     }
 }
 
+@media screen and (max-width: 321px) {
+    .mission__body-text {
+        width: 92%;
+    }
+}
+
 
 .mission-para {
     margin-top: 3em;
@@ -369,6 +375,13 @@
     .grid-body-text {
         font-size: .9rem;
         line-height: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 542px) {
+    .grid-body-text {
+        font-size: .85rem;
+        line-height: 1.5rem;
     }
 }
 
@@ -482,7 +495,7 @@
 
 @media screen and (max-width: 1402px) {
     .grid-body-text--about1 {
-        padding: 0 10em 0;
+        padding: 0 9em 0;
     }
 
     .grid-body-text--about2 {
@@ -524,11 +537,11 @@
 
 @media screen and (max-width: 1026px) {
     .grid-body-text--about1 {
-        padding: 0 5em 0;
+        padding: 0 5em 0 3em;
     }
 
     .grid-body-text--about2 {
-        padding: 0 4em 0;
+        padding: 0 3em 0;
     }
 
     .grid-body-text--about3 {
@@ -615,6 +628,24 @@
 
     .grid-body-text--about3 {
         padding: 0 1em;
+    }
+
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 542px) {
+    .grid-body-text--about1 {
+        padding: 0 1.125em;
+    }
+
+    .grid-body-text--about2 {
+        padding: 0 1.125em;
+    }
+
+    .grid-body-text--about3 {
+        padding: 0 1.125em;
     }
 
     .container {
@@ -885,6 +916,13 @@
     .body-text--big {
         font-size: 1.3625rem;
         font-weight: 200;
+    }
+}
+
+@media screen and (max-width: 735px) {
+    .body-text--big {
+        font-size: 1.25rem;
+        line-height: 1.9em;
     }
 }
 
