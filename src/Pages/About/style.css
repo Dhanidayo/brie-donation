@@ -361,7 +361,7 @@
 
 @media screen and (max-width: 602px) {
     .grid-body-text {
-        font-size: 1rem;
+        font-size: .9rem;
         line-height: 1.8rem;
     }
 }
@@ -600,15 +600,15 @@
 
 @media screen and (max-width: 602px) {
     .grid-body-text--about1 {
-        padding: 0 .8em;
+        padding: 0 1em;
     }
 
     .grid-body-text--about2 {
-        padding: 0 .8em;
+        padding: 0 1em;
     }
 
     .grid-body-text--about3 {
-        padding: 0 .1em 0 .8em;
+        padding: 0 1em;
     }
 
     .container {
