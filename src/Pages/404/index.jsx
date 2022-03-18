@@ -6,7 +6,7 @@ const FourOhFourPage = () => {
     return (
         <div className="four-oh-four">
             <div className="container row">
-                <div className="cols">
+                <div className="fof-cols">
                     <h2 className="heading1">WHOOPS!</h2>
                     <p className="body-text content-404">
                         It looks like it's a little windy around here. The link or content on this page may have blown away.
@@ -15,8 +15,8 @@ const FourOhFourPage = () => {
                         <button className="btn btn-404">Return to Homepage</button>
                     </Link>
                 </div>
-                <div className="cols">
-                    <img src={fourohfourimage} alt="" />
+                <div className="fof-cols">
+                    <img src={fourohfourimage} alt="" className="fof-img" />
                 </div>
             </div>
         </div>

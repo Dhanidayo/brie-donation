@@ -25,7 +25,7 @@ function App() {
             <Route path="/clothing" element={<Clothing />} />
             <Route path="/about" element={<About />} />
             <Route path="/" element={<Navigate replace to="/clothing" />} />
-            <Route path="/four-oh-four" element={<FourOhFour />} />
+            <Route path="/*" element={<FourOhFour />} />
             <Route path="/faq-page" element={<FaqPage />} />
           </Routes>
         </DefaultLayout>
