@@ -1,6 +1,13 @@
+import { useState } from "react";
 import "./style.css";
 
 const FaqPage = () => {
+    const [viewInfo, setViewInfo] = useState('');
+
+    const displayExtraInfo = (div) => {
+        setViewInfo(div);
+    }
+
     return (
         <div className="faq-page">
             <div className="faq-container">
@@ -52,8 +59,15 @@ const FaqPage = () => {
                         </li>
                         <hr className="divider faq-divider" />
                         <li className="faq-link">
-                            What is Brie's Authentication Guarantee? <span className="faq-hidden-plus">+</span>
+                            What is Brie's Authentication Guarantee? <span className="faq-hidden-plus" onClick={() => displayExtraInfo("info-container")}>+</span>
                         </li>
+                        {viewInfo === "info-container" &&
+                            <div className="info-container">
+                                <p className="body-text">
+                                    Brie's authenticity and quality experts carefully examine each item we list. Should you ever have any concerns about the authenticity of the product you ordered, please get in touch with us hi@brie.co. We have a zero-tolerance policy towards replicas. If the item turns out to be unauthentic, we will issue a full refund.
+                                </p>
+                            </div>
+                        }
                         <hr className="divider faq-divider" />
                         <li className="faq-link">
                             What happens if my items arrived damaged or not as described? <span className="faq-hidden-plus">+</span>

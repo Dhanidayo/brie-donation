@@ -89,6 +89,7 @@
 .faq-hidden-plus {
     color: #999;
     font-weight: lighter;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 416px) {
