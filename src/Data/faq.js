@@ -37,7 +37,7 @@ const faqs = {
     {
       question: "How much does shipping cost?",
       answer:
-        "We are happy to offer free shipping on all orders over $75.Orders that do not meet the limit will incur a charge of $7.99.",
+        "We are happy to offer free shipping on all orders over $75. Orders that do not meet the limit will incur a charge of $7.99.",
       id: "Q3",
     },
     {
@@ -112,7 +112,7 @@ const faqs = {
       Brie's authenticity and quality experts carefully examine each
       item we list. Should you ever have any concerns about the
       authenticity of the product you ordered, please get in touch
-      with us <Link href="http://hi@brie.co" className="inline-link">hi@brie.co</Link>. We have a zero-tolerance policy towards
+      with us <a href="http://hi@brie.co" className="inline-link">hi@brie.co</a>. We have a zero-tolerance policy towards
       replicas. If the item turns out to be unauthentic, we will
       issue a full refund.
     </p>`,
@@ -129,10 +129,10 @@ const faqs = {
     {
       question: "How do I order a Partner Donation Kit?",
       answer: `<p className="list-text">
-      Click the purple “Donate” button in the header to visit our{" "}
+      Click the purple “Donate” button in the header to visit our
       <u>
         <b>Become a Donation Partner</b>
-      </u>{" "}
+      </u>
       page.
     </p>`,
       id: "Q13",
@@ -141,13 +141,13 @@ const faqs = {
       question: "How can I find the closest drop-off location to ship my kit?",
       answer: `<p className="list-text">
       We use FedEx to ship our kits. To find the nearest drop-off
-      location,{" "}
-      <Link
-        to="https://local.fedex.com/en-us"
+      location,
+      <a
+        href="https://local.fedex.com/en-us"
         className="inline-link"
       >
         click here
-      </Link>{" "}
+      </a>
       and enter your address.
     </p>`,
       id: "Q14",
@@ -268,13 +268,13 @@ const faqs = {
     </p>
     <p className="list-text">
       Don’t let the clothing you don’t send to us go to the
-      landfill, even if it is in poor condition. Use the{" "}
-      <Link
+      landfill, even if it is in poor condition. Use the
+      <a
         className="inline-link"
-        to="https://earth911.com/recycling-guide/how-to-recycle-clothing-accessories/#recycling-locator"
+        href="https://earth911.com/recycling-guide/how-to-recycle-clothing-accessories/#recycling-locator"
       >
         recycling locator
-      </Link>{" "}
+      </a>
       to find the nearest drop-off location near you. Items can
       still be recycled even if they are torn, stained, have missing
       buttons, or broken zippers. The fibers are turned into new
@@ -304,13 +304,13 @@ const faqs = {
         condition and won’t break during transportation.
       </li>
       <li className="list-text">
-        Use the FedEx locator{" "}
-        <Link
+        Use the FedEx locator
+        <a
           className="inline-link"
-          to="https://local.fedex.com/en-us"
+          href="https://local.fedex.com/en-us"
         >
           here
-        </Link>{" "}
+        </a>
         to find the nearest drop-off near you
       </li>
     </ul>`,
@@ -394,12 +394,12 @@ const faqs = {
       answer: `<p className="list-text">
       Yes! We are thrilled to have launched our Brie Ambassador
       Program and can’t wait to meet you! Just complete this
-      <Link
+      <a
         className="inline-link"
-        to="https://forms.gle/dG9FJT7xouf5z2DY6"
+        href="https://forms.gle/dG9FJT7xouf5z2DY6"
       >
         quick survey
-      </Link>
+      </a>
       to get started. We accept applications on a rolling basis and
       will contact you if you’re accepted.
     </p>
@@ -418,7 +418,7 @@ const faqs = {
     },
     {
       question: "Who do I contact about press or media inquiries?",
-      answer: `<p className="list-text">Please email us at <Link to="https://press@brie.co" className="inline-link">press@brie.co</Link></p>`,
+      answer: `<p className="list-text">Please email us at <a href="https://press@brie.co" className="inline-link">press@brie.co</a></p>`,
       id: "Q25",
     },
   ],
