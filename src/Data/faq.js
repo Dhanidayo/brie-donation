@@ -86,7 +86,7 @@ const faqs = {
     {
       question: "What is the accepted form of payment?",
       answer:
-        "We accept Visa, Mastercard, Discover, American Express,Diners, JCB, China UnionPay cards or debit cards. We are unable to accept checks, money orders.",
+        "We accept Visa, Mastercard, Discover, American Express, Diners, JCB, China UnionPay cards or debit cards. We are unable to accept checks, money orders.",
       id: "Q7",
     },
     {
