@@ -8,28 +8,28 @@ const faqs = {
     },
     {
       question: "How long does shipping take?",
-      answer: `<p className="list-text">
+      answer: `<p class="list-text">
         Brie typically processes orders within three days. After your
         package ships, it takes about 3-8 business days to arrive. We
         are shipping from New York.
       </p>
-      <p className="list-text">
+      <p class="list-text">
         Note: We do not process or ship any orders on Saturdays,
         Sundays, or on the following holidays:
       </p>
-      <ul className="faq-list-container">
-        <li className="list-text">New Year's Eve</li>
-        <li className="list-text">New Year's Day</li>
-        <li className="list-text">Marthin Luther King, Jr. Day</li>
-        <li className="list-text">President's Day</li>
-        <li className="list-text">Memorial Day</li>
-        <li className="list-text">Independence Day</li>
-        <li className="list-text">Labor Day</li>
-        <li className="list-text">Thanksgiving Day</li>
-        <li className="list-text">Christmas Eve</li>
-        <li className="list-text">Christmas</li>
+      <ul class="faq-list-container">
+        <li class="list-text" style="list-style-type: disc;">New Year's Eve</li>
+        <li class="list-text" style="list-style-type: disc;">New Year's Day</li>
+        <li class="list-text" style="list-style-type: disc;">Marthin Luther King, Jr. Day</li>
+        <li class="list-text" style="list-style-type: disc;">President's Day</li>
+        <li class="list-text" style="list-style-type: disc;">Memorial Day</li>
+        <li class="list-text" style="list-style-type: disc;">Independence Day</li>
+        <li class="list-text" style="list-style-type: disc;">Labor Day</li>
+        <li class="list-text" style="list-style-type: disc;">Thanksgiving Day</li>
+        <li class="list-text" style="list-style-type: disc;">Christmas Eve</li>
+        <li class="list-text" style="list-style-type: disc;">Christmas</li>
       </ul>
-      <p className="list-text">
+      <p class="list-text">
         Delivery can be subject to weather delays.
       </p>`,
       id: "Q2",
@@ -42,14 +42,14 @@ const faqs = {
     },
     {
       question: "What’s your return policy?",
-      answer: `<p className="list-text">
+      answer: `<p class="list-text">
         We want our customers to be 100% satisfied with their
         purchase. If that is not the case, items can be returned
         within 14 days from the date of delivery. $8.99 will be
         deducted from your refund for the cost of the return shipping
         label.
       </p>
-      <p className="list-text">
+      <p class="list-text">
         Final sale items are not eligible for return.
       </p>`,
       id: "Q4",
@@ -58,13 +58,13 @@ const faqs = {
   BUYERS: [
     {
       question: "Why should I shop at Brie?",
-      answer: `<p className="list-text">
+      answer: `<p class="list-text">
       Brie is the first platform of its kind! Your purchases have a
       significant impact. You support incredible non-profits, plant
       trees, keep clothing out of landfills, reduce pollution and
       water waste.
     </p>
-    <p className="list-text">
+    <p class="list-text">
       We are also working on a dashboard where you can see the
       lifetime of good you have done using our platform.
     </p>`,
@@ -72,12 +72,12 @@ const faqs = {
     },
     {
       question: "What are the restrictions for the shopping cart?",
-      answer: `<p className="list-text">
+      answer: `<p class="list-text">
       Because we have just one of each item, you can reserve up to
       25 items in your cart for 4 hours. Once the timer runs out,
       the items are released back onto the site for others to buy.
     </p>
-    <p className="list-text">
+    <p class="list-text">
       Please note: The timer cart duration may vary at times, such
       as sales and holidays.
     </p>`,
@@ -108,11 +108,11 @@ const faqs = {
     },
     {
       question: "What is Brie's Authentication Guarantee?",
-      answer: `<p className="list-text">
+      answer: `<p class="list-text">
       Brie's authenticity and quality experts carefully examine each
       item we list. Should you ever have any concerns about the
       authenticity of the product you ordered, please get in touch
-      with us <a href="http://hi@brie.co" className="inline-link">hi@brie.co</a>. We have a zero-tolerance policy towards
+      with us <a href="http://hi@brie.co" class="inline-link">hi@brie.co</a>. We have a zero-tolerance policy towards
       replicas. If the item turns out to be unauthentic, we will
       issue a full refund.
     </p>`,
@@ -128,7 +128,7 @@ const faqs = {
   "DONATION PARTNERS": [
     {
       question: "How do I order a Partner Donation Kit?",
-      answer: `<p className="list-text">
+      answer: `<p class="list-text">
       Click the purple “Donate” button in the header to visit our
       <u>
         <b>Become a Donation Partner</b>
@@ -139,12 +139,12 @@ const faqs = {
     },
     {
       question: "How can I find the closest drop-off location to ship my kit?",
-      answer: `<p className="list-text">
+      answer: `<p class="list-text">
       We use FedEx to ship our kits. To find the nearest drop-off
       location,
       <a
         href="https://local.fedex.com/en-us"
-        className="inline-link"
+        class="inline-link"
       >
         click here
       </a>
@@ -154,44 +154,44 @@ const faqs = {
     },
     {
       question: "What can I send to Brie?",
-      answer: `<p className="list-text">
+      answer: `<p class="list-text">
       We accept all women's clothing, shoes, and accessories brands.
       The items must be in <u>great condition</u> and <u>in style</u>. All clothing must have size tags attached and
       be recently washed and fully dry.
     </p>
-    <p className="list-text">
+    <p class="list-text">
       <u>
         <b>We do not accept:</b>
       </u>
     </p>
-    <ul className="faq-list-container">
-      <li className="list-text">Men's clothing and accessories</li>
-      <li className="list-text">
+    <ul class="faq-list-container">
+      <li class="list-text" style="list-style-type: disc;">Men's clothing and accessories</li>
+      <li class="list-text" style="list-style-type: disc;">
         Children's clothing and accessories
       </li>
-      <li className="list-text">Missing sizes</li>
-      <li className="list-text">Odors and heavy scents</li>
-      <li className="list-text">Stains</li>
-      <li className="list-text">Rips, split seams, broken parts</li>
-      <li className="list-text">Fading or pilling</li>
-      <li className="list-text">Alterations or custom-made</li>
-      <li className="list-text">Counterfeit merchandise</li>
-      <li className="list-text">Bras lingerie, underwear</li>
-      <li className="list-text">Pajamas and nightgowns</li>
-      <li className="list-text">Wedding dresses</li>
-      <li className="list-text">Prom dresses</li>
-      <li className="list-text">Uniforms</li>
-      <li className="list-text">
+      <li class="list-text" style="list-style-type: disc;">Missing sizes</li>
+      <li class="list-text" style="list-style-type: disc;">Odors and heavy scents</li>
+      <li class="list-text" style="list-style-type: disc;">Stains</li>
+      <li class="list-text" style="list-style-type: disc;">Rips, split seams, broken parts</li>
+      <li class="list-text" style="list-style-type: disc;">Fading or pilling</li>
+      <li class="list-text" style="list-style-type: disc;">Alterations or custom-made</li>
+      <li class="list-text" style="list-style-type: disc;">Counterfeit merchandise</li>
+      <li class="list-text" style="list-style-type: disc;">Bras lingerie, underwear</li>
+      <li class="list-text" style="list-style-type: disc;">Pajamas and nightgowns</li>
+      <li class="list-text" style="list-style-type: disc;">Wedding dresses</li>
+      <li class="list-text" style="list-style-type: disc;">Prom dresses</li>
+      <li class="list-text" style="list-style-type: disc;">Uniforms</li>
+      <li class="list-text" style="list-style-type: disc;">
         Culture-specific or niche clothing
       </li>
-      <li className="list-text">
+      <li class="list-text" style="list-style-type: disc;">
         Graphics or references to local teams or places that are not
         widely known
       </li>
-      <li className="list-text">
+      <li class="list-text" style="list-style-type: disc;">
         Items with a retail value less than $10
       </li>
-      <li className="list-text">
+      <li class="list-text" style="list-style-type: disc;">
         Items that are not clothing: housewares, toys, books,
         bedding, etc.
       </li>
@@ -200,77 +200,77 @@ const faqs = {
     },
     {
       question: "What are your quality standards?",
-      answer: `<p className="list-text">
+      answer: `<p class="list-text">
       We only list great condition items that are on trend, in style
       and freshly washed and fully dry. All size tags <u>must</u> be
       attached.
     </p>
-    <p className="list-text">
+    <p class="list-text">
       <u>
         <b>Clothing:</b>
       </u>
     </p>
-    <ul className="faq-list-container">
-      <li className="list-text">No missing sizes or labels</li>
-      <li className="list-text">No odors or heavy scents</li>
-      <li className="list-text">No stains</li>
-      <li className="list-text">
+    <ul class="faq-list-container">
+      <li class="list-text" style="list-style-type: disc;">No missing sizes or labels</li>
+      <li class="list-text" style="list-style-type: disc;">No odors or heavy scents</li>
+      <li class="list-text" style="list-style-type: disc;">No stains</li>
+      <li class="list-text" style="list-style-type: disc;">
         No rips, split seams, broken parts
       </li>
-      <li className="list-text">No fading or pilling</li>
-      <li className="list-text">No scuffs or marks</li>
-      <li className="list-text">No alterations</li>
-      <li className="list-text">No counterfeits</li>
+      <li class="list-text" style="list-style-type: disc;">No fading or pilling</li>
+      <li class="list-text" style="list-style-type: disc;">No scuffs or marks</li>
+      <li class="list-text" style="list-style-type: disc;">No alterations</li>
+      <li class="list-text" style="list-style-type: disc;">No counterfeits</li>
     </ul>
-    <p className="list-text">
+    <p class="list-text">
       <u>
         <b>Handbags:</b>
       </u>
     </p>
-    <ul className="faq-list-container">
-      <li className="list-text">Clean interior</li>
-      <li className="list-text">Clean exterior</li>
-      <li className="list-text">No scuffs or marks</li>
-      <li className="list-text">No odors or heavy scents</li>
-      <li className="list-text">No stains</li>
-      <li className="list-text">
+    <ul class="faq-list-container">
+      <li class="list-text" style="list-style-type: disc;">Clean interior</li>
+      <li class="list-text" style="list-style-type: disc;">Clean exterior</li>
+      <li class="list-text" style="list-style-type: disc;">No scuffs or marks</li>
+      <li class="list-text" style="list-style-type: disc;">No odors or heavy scents</li>
+      <li class="list-text" style="list-style-type: disc;">No stains</li>
+      <li class="list-text" style="list-style-type: disc;">
         No rips, split seams, broken parts
       </li>
-      <li className="list-text">No fading or pilling</li>
-      <li className="list-text">No counterfeits</li>
+      <li class="list-text" style="list-style-type: disc;">No fading or pilling</li>
+      <li class="list-text" style="list-style-type: disc;">No counterfeits</li>
     </ul>
-    <p className="list-text">
+    <p class="list-text">
       <u>
         <b>Shoes:</b>
       </u>
     </p>
-    <ul className="faq-list-container">
-      <li className="list-text">Clean interior</li>
-      <li className="list-text">Clean exterior (including sole)</li>
-      <li className="list-text">Not misshaped</li>
-      <li className="list-text">Not worn out</li>
-      <li className="list-text">Not dirty</li>
-      <li className="list-text">No scuffs</li>
-      <li className="list-text">No marks</li>
-      <li className="list-text">No odors or heavy scents</li>
-      <li className="list-text">No counterfeits</li>
+    <ul class="faq-list-container">
+      <li class="list-text" style="list-style-type: disc;">Clean interior</li>
+      <li class="list-text" style="list-style-type: disc;">Clean exterior (including sole)</li>
+      <li class="list-text" style="list-style-type: disc;">Not misshaped</li>
+      <li class="list-text" style="list-style-type: disc;">Not worn out</li>
+      <li class="list-text" style="list-style-type: disc;">Not dirty</li>
+      <li class="list-text" style="list-style-type: disc;">No scuffs</li>
+      <li class="list-text" style="list-style-type: disc;">No marks</li>
+      <li class="list-text" style="list-style-type: disc;">No odors or heavy scents</li>
+      <li class="list-text" style="list-style-type: disc;">No counterfeits</li>
     </ul>`,
       id: "Q16",
     },
     {
       question: "Can I send outdated or poor-quality clothing?",
-      answer: `<p className="list-text">
+      answer: `<p class="list-text">
       As much as we would love to accept all clothing, we can only
       take items in great condition and in style that can be
       resold.Processing takes a lot of time and resources. We want
       tofocus that energy on listing more items that can sell so
       that more charities can get paid.
     </p>
-    <p className="list-text">
+    <p class="list-text">
       Don’t let the clothing you don’t send to us go to the
       landfill, even if it is in poor condition. Use the
       <a
-        className="inline-link"
+        class="inline-link"
         href="https://earth911.com/recycling-guide/how-to-recycle-clothing-accessories/#recycling-locator"
       >
         recycling locator
@@ -286,27 +286,27 @@ const faqs = {
     {
       question:
         "What are the shipping instructions for the Partner Donation Kit?",
-      answer: `<p className="list-text">
+      answer: `<p class="list-text">
       You can either request a shipping bag with a label to be sent
       to you or print a shipping label from your email.
     </p>
-    <ul className="faq-list-container">
-      <li className="list-text"> Use each label only once</li>
-      <li className="list-text">
+    <ul class="faq-list-container">
+      <li class="list-text" style="list-style-type: disc;"> Use each label only once</li>
+      <li class="list-text" style="list-style-type: disc;">
         The weight limit for your donation <u>package</u> should not
         exceed 35 lbs
       </li>
-      <li className="list-text">
+      <li class="list-text" style="list-style-type: disc;">
         Boxes should not should not exceed 25"x16" x16"
       </li>
-      <li className="list-text">
+      <li class="list-text" style="list-style-type: disc;">
         If you are using a used box, make sure it is in excellent
         condition and won’t break during transportation.
       </li>
-      <li className="list-text">
+      <li class="list-text" style="list-style-type: disc;">
         Use the FedEx locator
         <a
-          className="inline-link"
+          class="inline-link"
           href="https://local.fedex.com/en-us"
         >
           here
@@ -340,12 +340,12 @@ const faqs = {
         <td>70%</td>
       </tr>
     </table>
-    <p className="list-text--small">
+    <p class="list-text--small">
       *Due to our shipping label, processing, and overhead costs, we
       cannot give a charity payout on items that sell for less than
       $5
     </p>
-    <p className="list-text--small">
+    <p class="list-text--small">
       ** Sales and promotions will affect the donation. The donation
       will be based on the total product price after the promo and
       not on the original sale price.
@@ -378,7 +378,7 @@ const faqs = {
       choose where the proceeds will go. We also plant a tree with
       every order.
     </p>
-    <p className="list-text">
+    <p class="list-text">
       Unless you give your clothing to a reputable donation bin like
       Goodwill or Salvation Army, many donation bins are for-profit
       companies that resell your clothing to thrift stores and
@@ -391,11 +391,11 @@ const faqs = {
   "MEDIA & INFLUENCERS": [
     {
       question: "Do you have an ambassador program?",
-      answer: `<p className="list-text">
+      answer: `<p class="list-text">
       Yes! We are thrilled to have launched our Brie Ambassador
       Program and can’t wait to meet you! Just complete this
       <a
-        className="inline-link"
+        class="inline-link"
         href="https://forms.gle/dG9FJT7xouf5z2DY6"
       >
         quick survey
@@ -403,13 +403,13 @@ const faqs = {
       to get started. We accept applications on a rolling basis and
       will contact you if you’re accepted.
     </p>
-    <p className="list-text">As an ambassador, you will...</p>
-    <ul className="faq-list-container">
-      <li className="list-text">Receive 20% off all purchases</li>
-      <li className="list-text">
+    <p class="list-text">As an ambassador, you will...</p>
+    <ul class="faq-list-container">
+      <li class="list-text" style="list-style-type: disc;">Receive 20% off all purchases</li>
+      <li class="list-text" style="list-style-type: disc;">
         Receive a 10% discount to share on your social networks
       </li>
-      <li className="list-text">
+      <li class="list-text" style="list-style-type: disc;">
         Spread the word about Brie through all social channels such
         as YouTube, Instagram, Facebook, Twitter, Blogging, etc.
       </li>
@@ -418,7 +418,7 @@ const faqs = {
     },
     {
       question: "Who do I contact about press or media inquiries?",
-      answer: `<p className="list-text">Please email us at <a href="https://press@brie.co" className="inline-link">press@brie.co</a></p>`,
+      answer: `<p class="list-text">Please email us at <a href="https://press@brie.co" class="inline-link">press@brie.co</a></p>`,
       id: "Q25",
     },
   ],
