@@ -65,7 +65,7 @@
     font-weight: 800;
 }
 
-@media screen and (max-width: 362px) {
+@media screen and (max-width: 386px) {
     .faq-list-title {
         font-size: 1.125rem;
     }
@@ -73,7 +73,7 @@
 
 @media screen and (max-width: 321px) {
     .faq-list-title {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 }
 
