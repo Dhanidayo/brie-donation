@@ -47,19 +47,19 @@ const FaqItem = ({ question, answer }) => {
 
   return (
     <>
-      <li className="faq-link">
+      <li className="faq-link" onClick={toggleShow}>
         {question}{" "}
-        <span className="faq-hidden-plus" onClick={toggleShow}>
-          +
+        <span className="faq-hidden-plus">
+          {show ? "-" : "+"}
         </span>
       </li>
+      <hr className="divider faq-divider" />
       {show && (
         <div
           className="info-container"
           dangerouslySetInnerHTML={{ __html: answer }}
         />
       )}
-      <hr className="divider faq-divider" />
     </>
   );
 };

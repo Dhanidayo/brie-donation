@@ -10,6 +10,7 @@ import OurImpact from "./Pages/OurImpact";
 import About from "./Pages/About";
 import FourOhFour from "./Pages/404";
 import FaqPage from "./Pages/FAQ";
+import ContactUs from "./Pages/ContactUs";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             <Route path="/" element={<Navigate replace to="/clothing" />} />
             <Route path="/*" element={<FourOhFour />} />
             <Route path="/faq-page" element={<FaqPage />} />
+            <Route path="/contact-us" element={<ContactUs />} />
           </Routes>
         </DefaultLayout>
     </BrowserRouter>  
