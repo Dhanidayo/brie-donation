@@ -25,7 +25,7 @@ const FaqBlock = ({ title, content }) => {
   return (
     <div className="faq-content">
       <h3 className="faq-list-title">{title}</h3>
-      <ul>
+      <ul className="faq-ul">
         {content.map((faqItem) => (
           <FaqItem
             question={faqItem.question}

@@ -9,19 +9,25 @@
 
 @media screen and (max-width: 2298px) {
     .faq-heading {
-        font-size: 35pt;
+        font-size: 32pt;
+    }
+}
+
+@media screen and (max-width: 1442px) {
+    .faq-heading {
+        font-size: 30pt;
     }
 }
 
 @media screen and (max-width: 1370px) {
     .faq-heading {
-        font-size: 25pt;
+        font-size: 24pt;
     }
 }
 
 @media screen and (max-width: 836px) {
     .faq-heading {
-        font-size: 20pt;
+        font-size: 19pt;
     }
 }
 
@@ -32,38 +38,32 @@
 }
 
 .faq-container {
-    width: 40%;
+    width: 54%;
     margin: 0 auto;
     padding: 1rem;
 }
 
-@media screen and (max-width: 1682px) {
-    .faq-container {
-        width: 44%;
-    }
-}
-
-@media screen and (max-width: 1442px) {
-    .faq-container {
-        width: 50%;
-    }
-}
-
-@media screen and (max-width: 1026px) {
-    .faq-container {
-        width: 60%;
-    }
-}
-
-@media screen and (max-width: 836px) {
+@media screen and (max-width: 1920px) {
     .faq-container {
         width: 65%;
     }
 }
 
-@media screen and (max-width: 802px) {
+@media screen and (max-width: 1603px) {
     .faq-container {
-        width: 70%;
+        width: 68%;
+    }
+}
+
+@media screen and (max-width: 1442px) {
+    .faq-container {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 836px) {
+    .faq-container {
+        width: 75%;
     }
 }
 
@@ -75,7 +75,7 @@
 
 /* @media screen and (max-width: 416px) {
     .faq-container {
-        width: 90%;
+        width: 85%;
     }
 } */
 
@@ -84,46 +84,78 @@
 }
 
 .faq-list-title {
-    margin: 3em 0 2em;
-    font-size: 1.25rem;
+    margin: 3em 0 2em -2.55rem;
+    font-size: 32pt;
     font-weight: 800;
-    margin-left: -3rem;
 }
 
 @media screen and (max-width: 2298px) {
     .faq-list-title {
-        font-size: 35pt;
+        font-size: 32pt;
+    }
+}
+
+@media screen and (max-width: 1442px) {
+    .faq-list-title {
+        font-size: 30pt;
+        margin-left: -2rem;
     }
 }
 
 @media screen and (max-width: 1370px) {
     .faq-list-title {
-        font-size: 25pt;
-        margin-left: -.9em;
+        font-size: 24pt;
+        margin-left: -1.5rem;
+    }
+}
+
+@media screen and (max-width: 1026px) {
+    .faq-list-title {
+        font-size: 23pt;
     }
 }
 
 @media screen and (max-width: 836px) {
     .faq-list-title {
-        font-size: 20pt;
+        font-size: 19pt;
+        margin-left: -1.2rem;
     }
 }
 
 @media screen and (max-width: 416px) {
     .faq-list-title {
-        font-size: 18pt;
+        font-size: 17pt;
+        text-align: left;
     }
 }
 
 @media screen and (max-width: 386px) {
     .faq-list-title {
-        font-size: 16pt;
+        font-size: 15pt;
     }
 }
 
 @media screen and (max-width: 321px) {
     .faq-list-title {
-        font-size: 14pt;
+        font-size: 13pt;
+    }
+}
+
+@media screen and (max-width: 416px) {
+    .faq-ul {
+        padding-left: 1.9rem;
+    }
+}
+
+@media screen and (max-width: 386px) {
+    .faq-ul {
+        padding-left: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .faq-ul {
+        padding-left: 1.3rem;
     }
 }
 
@@ -139,42 +171,56 @@
 }
 
 .faq-link:hover {
-    opacity: .6;
+    opacity: .7;
 }
 
 @media screen and (max-width: 2298px) {
     .faq-link {
-        font-size: 25pt;
+        font-size: 23pt;
+    }
+}
+
+@media screen and (max-width: 1442px) {
+    .faq-link {
+        font-size: 21pt;
     }
 }
 
 @media screen and (max-width: 1370px) {
     .faq-link {
-        font-size: 20pt;
+        font-size: 19pt;
     }
 }
 
-@media screen and (max-width: 836px) {
+@media screen and (max-width: 1026px) {
     .faq-link {
         font-size: 18pt;
     }
 }
 
+@media screen and (max-width: 836px) {
+    .faq-link {
+        font-size: 17pt;
+    }
+}
+
 @media screen and (max-width: 416px) {
     .faq-link {
-        font-size: 16pt;
+        font-size: 15pt;
+        text-align: left;
     }
 }
 
 @media screen and (max-width: 386px) {
     .faq-link {
-        font-size: 14pt;
+        font-size: 13pt;
+
     }
 }
 
 @media screen and (max-width: 321px) {
     .faq-link {
-        font-size: 12pt;
+        font-size: 11pt;
     }
 }
 
@@ -182,16 +228,11 @@
 .faq-hidden-plus {
     color: #999;
     font-weight: lighter;
+    margin-left: 1em;
 }
 
 .faq-hidden-plus:hover {
     color: #000;
-}
-
-@media screen and (max-width: 802px) {
-    .faq-hidden-plus {
-        margin-left: 1em;
-    }
 }
 
 /* li {
@@ -209,7 +250,7 @@
 }
 
 .info-container {
-    padding: 0 8rem 0 1rem;
+    padding: 0 14rem 0 1rem;
     line-height: 30pt;
     font-size: 20pt;
 }
@@ -226,22 +267,27 @@
     }
 }
 
+@media screen and (max-width: 1442px) {
+    .info-container {
+        font-size: 19pt;
+    }
+}
+
 @media screen and (max-width: 1370px) {
     .info-container {
-        font-size: 18pt;
+        font-size: 17pt;
     }
 }
 
-@media screen and (max-width: 836px) {
+@media screen and (max-width: 1026px) {
     .info-container {
-        font-size: 16pt;
+        font-size: 15pt;
+        padding: 0 3rem 0 1rem;
     }
 }
 
-@media screen and (max-width: 416px) {
+@media screen and (max-width: 802px) {
     .info-container {
-        padding: 0 1rem;
-        margin-left: -1.5rem;
         font-size: 14pt;
     }
 }
@@ -254,17 +300,25 @@
     }
 }
 
-@media screen and (max-width: 386px) {
+@media screen and (max-width: 416px) {
     .info-container {
-        font-size: 12pt;
+        padding: 0 1rem;
+        margin-left: -1.5rem;
+        font-size: 13pt;
     }
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 386px) {
     .info-container {
         font-size: 11pt;
     }
 }
+
+/* @media screen and (max-width: 321px) {
+    .info-container {
+        font-size: 11pt;
+    }
+} */
 
 
 .list-text--small {
