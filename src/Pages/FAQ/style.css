@@ -9,19 +9,25 @@
 
 @media screen and (max-width: 2298px) {
     .faq-heading {
-        font-size: 32pt;
+        font-size: 27pt;
     }
 }
 
 @media screen and (max-width: 1442px) {
     .faq-heading {
-        font-size: 30pt;
+        font-size: 25pt;
     }
 }
 
 @media screen and (max-width: 1370px) {
     .faq-heading {
         font-size: 24pt;
+    }
+}
+
+@media screen and (max-width: 1282px) {
+    .faq-heading {
+        font-size: 23pt;
     }
 }
 
@@ -83,22 +89,25 @@
     margin: 3em 0;
 }
 
+.faq-list-title:first-child {
+    margin-top: 2em;
+}
+
 .faq-list-title {
-    margin: 3em 0 2em -2.55rem;
-    font-size: 32pt;
+    margin: 3em 0 2em -2rem;
+    font-size: 27pt;
     font-weight: 800;
 }
 
 @media screen and (max-width: 2298px) {
     .faq-list-title {
-        font-size: 32pt;
+        font-size: 27pt;
     }
 }
 
 @media screen and (max-width: 1442px) {
     .faq-list-title {
-        font-size: 30pt;
-        margin-left: -2rem;
+        font-size: 25pt;
     }
 }
 
@@ -109,16 +118,17 @@
     }
 }
 
-@media screen and (max-width: 1026px) {
+@media screen and (max-width: 1282px) {
     .faq-list-title {
         font-size: 23pt;
+        margin-left: -1.2rem;
     }
 }
 
 @media screen and (max-width: 836px) {
     .faq-list-title {
         font-size: 19pt;
-        margin-left: -1.2rem;
+        margin-left: -.9rem;
     }
 }
 
@@ -176,13 +186,13 @@
 
 @media screen and (max-width: 2298px) {
     .faq-link {
-        font-size: 23pt;
+        font-size: 21pt;
     }
 }
 
 @media screen and (max-width: 1442px) {
     .faq-link {
-        font-size: 21pt;
+        font-size: 20pt;
     }
 }
 
@@ -192,21 +202,21 @@
     }
 }
 
-@media screen and (max-width: 1026px) {
-    .faq-link {
-        font-size: 18pt;
-    }
-}
-
-@media screen and (max-width: 836px) {
+@media screen and (max-width: 1282px) {
     .faq-link {
         font-size: 17pt;
     }
 }
 
-@media screen and (max-width: 416px) {
+@media screen and (max-width: 836px) {
     .faq-link {
         font-size: 15pt;
+    }
+}
+
+@media screen and (max-width: 416px) {
+    .faq-link {
+        font-size: 14pt;
         text-align: left;
     }
 }
@@ -250,7 +260,7 @@
 }
 
 .info-container {
-    padding: 0 14rem 0 1rem;
+    padding: 0 12rem 0 1rem;
     line-height: 30pt;
     font-size: 20pt;
 }
@@ -262,14 +272,14 @@
 
 @media screen and (max-width: 2298px) {
     .info-container {
-        font-size: 20pt;
+        font-size: 18pt;
         line-height: 30pt;
     }
 }
 
 @media screen and (max-width: 1442px) {
     .info-container {
-        font-size: 19pt;
+        font-size: 17pt;
     }
 }
 
@@ -279,16 +289,16 @@
     }
 }
 
-@media screen and (max-width: 1026px) {
+@media screen and (max-width: 1282px) {
     .info-container {
-        font-size: 15pt;
-        padding: 0 3rem 0 1rem;
+        font-size: 14pt;
+        padding: 0 8rem 0 1rem;
     }
 }
 
 @media screen and (max-width: 802px) {
     .info-container {
-        font-size: 14pt;
+        padding: 0 3rem 0 1rem;
     }
 }
 
@@ -296,7 +306,7 @@
     .info-container {
         padding: 0 2rem;
         margin-left: -1.5rem;
-        font-size: 14pt;
+        /* font-size: 14pt; */
     }
 }
 

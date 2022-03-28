@@ -1,7 +1,13 @@
 .contact-page {
-    padding: 4rem;
-    margin: auto
+    padding: 12rem 2rem;
+    margin: auto;
 }
+
+/* @media screen and (max-width: 2298px) {
+    .contact-page {
+        padding: 18rem 2rem;
+    }
+} */
 
 @media screen and (max-width: 836px) {
     .contact-page {
@@ -17,7 +23,11 @@
 
 @media screen and (max-width: 602px) {
     .contact-page {
-        padding: 8rem 1rem;
+        padding: 1rem;
+    }
+
+    .contact-text {
+        text-align: center;
     }
 }
 
@@ -47,6 +57,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* latest adjustment, not sure i'm going with it though */
+@media screen and (max-width: 602px) {
+    .contact-row {
+        flex-direction: column;
+    }  
 }
 
 @media screen and (max-width: 416px) {
@@ -181,8 +198,8 @@
 
 @media screen and (max-width: 602px) {
     .contact-body-text {
-        font-size: 10pt;
-        line-height: 10pt;
+        font-size: 14pt;
+        line-height: 14pt;
     }
 }
 
@@ -230,12 +247,14 @@
     }
 }
 
-/* @media screen and (max-width: 602px) {
+@media screen and (max-width: 602px) {
     .contact-image {
         width: 434px;
         height: 290px;
+        /* margin: auto; */
+        margin-left: 4rem;
     }
-} */
+}
 
 @media screen and (max-width: 416px) {
     .contact-image {

@@ -262,8 +262,8 @@ const faqs = {
       answer: `<p class="list-text">
       As much as we would love to accept all clothing, we can only
       take items in great condition and in style that can be
-      resold.Processing takes a lot of time and resources. We want
-      tofocus that energy on listing more items that can sell so
+      resold. Processing takes a lot of time and resources. We want
+      to focus that energy on listing more items that can sell so
       that more charities can get paid.
     </p>
     <p class="list-text">
