@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 2298px) {
     .faq-heading {
-        font-size: 27pt;
+        font-size: 27.5pt;
     }
 }
 
@@ -101,7 +101,7 @@
 
 @media screen and (max-width: 2298px) {
     .faq-list-title {
-        font-size: 27pt;
+        font-size: 27.5pt;
     }
 }
 
@@ -186,7 +186,7 @@
 
 @media screen and (max-width: 2298px) {
     .faq-link {
-        font-size: 21pt;
+        font-size: 21.5pt;
     }
 }
 
@@ -272,7 +272,7 @@
 
 @media screen and (max-width: 2298px) {
     .info-container {
-        font-size: 18pt;
+        font-size: 18.5pt;
         line-height: 30pt;
     }
 }
