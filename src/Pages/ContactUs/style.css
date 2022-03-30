@@ -5,7 +5,7 @@
 
 @media screen and (max-width: 1602px) {
     .contact-page {
-        padding: 8rem 2rem;
+        padding: 8rem .5rem;
     }
 }
 
@@ -224,6 +224,7 @@
 
 @media screen and (max-width: 802px) {
     .contact-body-text {
+        line-height: 10pt;
         font-size: 1.125rem;
         font-weight: light;
     }
@@ -238,7 +239,7 @@
 
 @media screen and (max-width: 322px) {
     .contact-body-text {
-        font-size: 12pt;
+        font-size: 11pt;
     }
 }
 
@@ -276,16 +277,16 @@
 }
 
 @media screen and (max-width: 770px) {
-    .contact-image {
+    /* .contact-image {
         margin-left: 8.5rem;
-    }
+    } */
 }
 
 @media screen and (max-width: 602px) {
     .contact-image {
         width: 434px;
         height: 290px;
-        margin-left: 4rem;
+        /* margin-left: 4rem; */
     }
 }
 
