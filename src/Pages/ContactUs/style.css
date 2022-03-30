@@ -35,7 +35,7 @@
 
 @media screen and (max-width: 322px) {
   .contact-page {
-    padding: 1rem;
+    padding: 0rem;
   }
 }
 
@@ -132,13 +132,7 @@
 }
 
 .contact h3 {
-  font-size: 22.5pt;
-}
-
-@media screen and (max-width: 1682px) {
-  .contact h3 {
-    font-size: 20pt;
-  }
+  font-size: 20pt;
 }
 
 @media screen and (max-width: 1442px) {
@@ -185,14 +179,13 @@
 }
 
 .contact-body-text {
-  font-size: 18.75pt;
+  font-size: 18pt;
   line-height: 25pt;
   font-weight: 300;
 }
 
 @media screen and (max-width: 1682px) {
   .contact-body-text {
-    font-size: 18pt;
     line-height: 20pt;
   }
 }
