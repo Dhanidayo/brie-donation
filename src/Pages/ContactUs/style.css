@@ -3,7 +3,7 @@
     margin: auto;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1602px) {
     .contact-page {
         padding: 8rem 2rem;
     }
@@ -17,13 +17,13 @@
 
 @media screen and (max-width: 802px) {
     .contact-page {
-        padding: 8rem 2rem;
+        padding: 8rem 1rem;
     }
 }
 
 @media screen and (max-width: 770px) {
     .contact-page {
-        padding: 8rem 2rem;
+        padding: .5rem;
     }
 }
 
@@ -69,25 +69,17 @@
     }
 }
 
-@media screen and (max-width: 602px) {
+@media screen and (max-width: 770px) {
     .contact-text {
         text-align: center;
     }
 }
 
-@media screen and (max-width: 416px) {
+/* @media screen and (max-width: 416px) {
     .contact-text {
         text-align: center;
     }
-}
-
-.contact-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-}
-
+} */
 
 
 .contact-col {
@@ -99,10 +91,17 @@
     margin-left: 30px;
 }
 
-@media screen and (max-width: 602px) {
+@media screen and (max-width: 770px) {
     .contact-col + .contact-col {
         margin-left: 0px;
     }
+}
+
+.contact-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
 }
 
 @media screen and (max-width: 2298px) {
@@ -131,13 +130,13 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1026px) {
     .contact-row {
         margin: auto;
     }
 }
 
-@media screen and (max-width: 602px) {
+@media screen and (max-width: 770px) {
     .contact-row {
         flex-direction: column;
     }  
@@ -171,16 +170,22 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .contact h3 {
+        font-size: 16pt;
+        font-weight: 800;
+    }
+}
+
 @media screen and (max-width: 602px) {
     .contact h3 {
-        font-weight: 800;
+        font-size: 15pt;
     }
 }
 
 @media screen and (max-width: 416px) {
     .contact h3 {
         font-size: 16pt;
-        font-weight: 800;
     }
 }
 
@@ -217,10 +222,10 @@
     }
 }
 
-@media screen and (max-width: 602px) {
+@media screen and (max-width: 802px) {
     .contact-body-text {
-        font-size: 14pt;
-        line-height: 12pt;
+        font-size: 1.125rem;
+        font-weight: light;
     }
 }
 
@@ -228,15 +233,12 @@
     .contact-body-text {
         font-size: 14pt;
         line-height: 18pt;
-        font-weight: light;
     }
 }
 
 @media screen and (max-width: 322px) {
     .contact-body-text {
         font-size: 12pt;
-        line-height: 18pt;
-        font-weight: light;
     }
 }
 
@@ -270,6 +272,12 @@
     .contact-image {
         width: 434px;
         height: 290px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .contact-image {
+        margin-left: 8.5rem;
     }
 }
 
