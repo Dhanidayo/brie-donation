@@ -161,10 +161,16 @@
 
 @media screen and (max-width: 802px) {
   .contact h3 {
-    font-size: 18pt;
+    font-size: 19pt;
     font-weight: 800;
   }
 }
+
+@media screen and (max-width: 770px) {
+    .contact h3 {
+      font-size: 18pt;
+    }
+  }
 
 @media screen and (max-width: 602px) {
   .contact h3 {
@@ -228,10 +234,17 @@
 @media screen and (max-width: 802px) {
   .contact-body-text {
     line-height: 16pt;
-    font-size: 16.5pt;
+    font-size: 17.5pt;
     font-weight: light;
   }
 }
+
+@media screen and (max-width: 770px) {
+    .contact-body-text {
+      line-height: 16pt;
+      font-size: 16.5pt;
+    }
+  }
 
 @media screen and (max-width: 416px) {
   .contact-body-text {
