@@ -237,6 +237,13 @@
     }
 }
 
+@media screen and (max-width: 362px) {
+    .contact-body-text {
+        font-size: 12pt;
+        line-height: 16pt;
+    }
+}
+
 @media screen and (max-width: 322px) {
     .contact-body-text {
         font-size: 11pt;
