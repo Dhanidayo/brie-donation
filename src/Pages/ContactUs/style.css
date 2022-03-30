@@ -1,23 +1,29 @@
 .contact-page {
-    padding: 12rem 2rem;
+    padding: 10rem 2rem;
     margin: auto;
 }
 
-/* @media screen and (max-width: 2298px) {
-    .contact-page {
-        padding: 18rem 2rem;
-    }
-} */
-
-@media screen and (max-width: 836px) {
+@media screen and (max-width: 1600px) {
     .contact-page {
         padding: 8rem 2rem;
     }
 }
 
+@media screen and (max-width: 836px) {
+    .contact-page {
+        padding: 8rem 0rem;
+    }
+}
+
 @media screen and (max-width: 802px) {
     .contact-page {
-        padding: 8rem 4rem;
+        padding: 8rem 2rem;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .contact-page {
+        padding: 8rem 2rem;
     }
 }
 
@@ -25,19 +31,11 @@
     .contact-page {
         padding: 1rem;
     }
-
-    .contact-text {
-        text-align: center;
-    }
 }
 
 @media screen and (max-width: 416px) {
     .contact-page {
         padding: 0 1rem;
-    }
-
-    .contact-text {
-        text-align: center;
     }
 }
 
@@ -53,27 +51,48 @@
     }
 }
 
+
+
+.contact-text {
+    flex-basis: 50%;
+}
+
+@media screen and (max-width: 1442px) {
+    .contact-text {
+        flex-basis: 70%;
+    }
+}
+
+@media screen and (max-width: 836px) {
+    .contact-text {
+        flex-basis: 70%;
+    }
+}
+
+@media screen and (max-width: 602px) {
+    .contact-text {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 416px) {
+    .contact-text {
+        text-align: center;
+    }
+}
+
 .contact-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: auto;
 }
 
-/* latest adjustment, not sure i'm going with it though */
-@media screen and (max-width: 602px) {
-    .contact-row {
-        flex-direction: column;
-    }  
-}
 
-@media screen and (max-width: 416px) {
-    .contact-row {
-        flex-direction: column;
-    }  
-}
 
 .contact-col {
     width: 100%;
+    margin: auto;
 }
 
 .contact-col + .contact-col {
@@ -95,7 +114,6 @@
 
 @media screen and (max-width: 1922px) {
     .contact-row {
-        max-width: 1200px;
         margin: auto;
     }
 }
@@ -109,24 +127,27 @@
 
 @media screen and (max-width: 1282px) {
     .contact-row {
-        max-width: 900px;
         margin: auto;
     }
 }
 
 @media screen and (max-width: 1024px) {
     .contact-row {
-        max-width: 700px;
         margin: auto;
     }
 }
 
-/* @media screen and (max-width: 836px) {
+@media screen and (max-width: 602px) {
     .contact-row {
-        max-width: 900px;
-        margin: auto;
-    }
-} */
+        flex-direction: column;
+    }  
+}
+
+@media screen and (max-width: 416px) {
+    .contact-row {
+        flex-direction: column;
+    }  
+}
 
 .contact h3 {
     font-size: 20pt;
@@ -152,7 +173,7 @@
 
 @media screen and (max-width: 602px) {
     .contact h3 {
-        font-size: 14pt;
+        font-weight: 800;
     }
 }
 
@@ -199,7 +220,7 @@
 @media screen and (max-width: 602px) {
     .contact-body-text {
         font-size: 14pt;
-        line-height: 14pt;
+        line-height: 12pt;
     }
 }
 
@@ -217,6 +238,11 @@
         line-height: 18pt;
         font-weight: light;
     }
+}
+
+
+.contact-image {
+    flex-basis: 100%;
 }
 
 @media screen and (max-width: 2298px) {
@@ -251,7 +277,6 @@
     .contact-image {
         width: 434px;
         height: 290px;
-        /* margin: auto; */
         margin-left: 4rem;
     }
 }
