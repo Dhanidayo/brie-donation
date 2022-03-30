@@ -7,7 +7,6 @@ import onlyoneearth from "../../Img-Assets/brie-only-one-earth.jpg";
 import thrillingandaffordable from "../../Img-Assets/brie-thrilling-and-affordable.jpg";
 
 const About = () => {
-    // const [index, setIndex] = useState(0);
     const playerRef = useRef(null);
 
     useEffect(() => {
@@ -29,11 +28,10 @@ const About = () => {
                         We are an online thrift store that empowers giving
                     </p>
                     <div className="player-wrapper">
-                        {/* <img src={playerthumbnail} alt="" className="player-thumbnail" /> */}
                         <ReactPlayer
                             ref={playerRef}
                             className="react-player"
-                            url={"https://youtu.be/I10XB1-IIbA"}
+                            url={"https://www.youtube.com/watch?v=O8H6w-BWsRQ"}
                             playing
                             width="100%"
                             height="100%"
