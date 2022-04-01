@@ -2,13 +2,157 @@
     width: 50%;
     margin: auto;
     padding: 2rem;
-    border: 2px solid yellow;
+}
+
+@media screen and (max-width: 1922px) {
+    .return-policy {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1682px) {
+    .return-policy {
+        width: 62%;
+    }
+}
+
+@media screen and (max-width: 1602px) {
+    .return-policy {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 1368px) {
+    .return-policy {
+        width: 68%;
+    }
+}
+
+@media screen and (max-width: 1282px) {
+    .return-policy {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 1026px) {
+    .return-policy {
+        width: 72%;
+    }
+}
+
+@media screen and (max-width: 416px) {
+    .return-policy {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 362px) {
+    .return-policy {
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 1682px) {
+    .return-heading {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 1026px) {
+    .return-heading {
+        font-size: 1.375rem;
+    }
+}
+
+@media screen and (max-width: 802px) {
+    .return-heading {
+        font-size: 1.3125rem;
+    }
+}
+
+@media screen and (max-width: 602px) {
+    .return-heading {
+        font-size: 1.25rem;
+    }
 }
 
 .date-text {
     color: #555;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 3rem 0;
 }
+
+@media screen and (max-width: 1922px) {
+    .date-text {
+        font-size: 1.5625rem;
+    }
+}
+
+@media screen and (max-width: 1682px) {
+    .date-text {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 1442px) {
+    .date-text {
+        font-size: 1.325rem;
+    }
+}
+
+@media screen and (max-width: 1368px) {
+    .date-text {
+        font-size: 1.125rem;
+    }
+}
+
+@media screen and (max-width: 1026px) {
+    .date-text {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 802px) {
+    .date-text {
+        margin: 2rem 0;
+        font-size: .9rem;
+    }
+}
+
+
 
 .return-subheadings {
     margin-top: 3rem;
+}
+
+@media screen and (max-width: 1682px) {
+    .return-subheadings {
+        font-size: 1.5625rem;
+    }   
+}
+
+@media screen and (max-width: 1368px) {
+    .return-subheadings {
+        font-size: 1.25rem;
+    }   
+}
+
+@media screen and (max-width: 802px) {
+    .return-subheadings {
+        font-size: 1.1875rem;
+    }   
+}
+
+@media screen and (max-width: 602px) {
+    .return-subheadings {
+        font-size: 1.125rem;
+    }   
+}
+
+@media screen and (max-width: 802px) {
+    .return-subheadings {
+        margin-top: 2rem;
+    }   
 }

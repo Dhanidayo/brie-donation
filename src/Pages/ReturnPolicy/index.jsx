@@ -4,7 +4,7 @@ import "./style.css";
 const ReturnPolicy = () => {
   return (
     <div className="return-policy">
-      <h2 className="heading3">RETURN POLICY</h2>
+      <h2 className="heading3 return-heading">RETURN POLICY</h2>
       <p className="date-text">Last updated March 22, 2022</p>
       <p className="body-text">
         Thank you for your purchase. We hope you are happy with your purchase.
