@@ -11,6 +11,7 @@ import About from "./Pages/About";
 import FourOhFour from "./Pages/404";
 import FaqPage from "./Pages/FAQ";
 import ContactUs from "./Pages/ContactUs";
+import ReturnPolicy from "./Pages/ReturnPolicy";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
             <Route path="/*" element={<FourOhFour />} />
             <Route path="/faq-page" element={<FaqPage />} />
             <Route path="/contact-us" element={<ContactUs />} />
+            <Route path="/return-policy" element={<ReturnPolicy />} />
           </Routes>
         </DefaultLayout>
     </BrowserRouter>  

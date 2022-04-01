@@ -1,0 +1,14 @@
+.return-policy {
+    width: 50%;
+    margin: auto;
+    padding: 2rem;
+    border: 2px solid yellow;
+}
+
+.date-text {
+    color: #555;
+}
+
+.return-subheadings {
+    margin-top: 3rem;
+}
