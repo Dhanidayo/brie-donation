@@ -23,7 +23,7 @@ const ReturnPolicy = () => {
       <p className="body-text return__bodytext">The following items cannot be returned:</p>
       <ul>
         <li className="body-text return__bodytext">
-          Handbags, swimwear, and items that are marked “Final Sale cannot be returned
+          Handbags, swimwear, and items that are marked “Final Sale" cannot be returned
         </li>
       </ul>
       <p className="body-text return__bodytext">
