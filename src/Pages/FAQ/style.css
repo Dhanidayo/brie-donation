@@ -265,11 +265,6 @@
     font-size: 20pt;
 }
 
-/* .list-text {
-    font-size: 20pt;
-    line-height: 30pt;
-} */
-
 @media screen and (max-width: 2298px) {
     .info-container {
         font-size: 19pt;
@@ -357,6 +352,6 @@ table, td, th {
 }
 
 th, td {
-    padding: .5rem 2rem;
+    padding: .5rem 2rem .5rem 1rem;
     text-align: left;
 }

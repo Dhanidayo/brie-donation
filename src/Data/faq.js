@@ -319,7 +319,7 @@ const faqs = {
     {
       question: "How much do charities get paid?",
       answer: `<table>
-      <tr>
+      <tr style="background-color:#ddd;">
         <th>SELLING PRICE</th>
         <th>CHARITY PAYOUT</th>
       </tr>
@@ -329,15 +329,19 @@ const faqs = {
       </tr>
       <tr>
         <td>$20.00 - $49.99 </td>
-        <td>30%-45%</td>
+        <td>25%-40%</td>
       </tr>
       <tr>
         <td>$50.00 - $99.99 </td>
-        <td>50%-65%</td>
+        <td>40%-70%</td>
       </tr>
       <tr>
-        <td>$100 and up</td>
-        <td>70%</td>
+        <td>$100.00-$199.99</td>
+        <td>70%-80%</td>
+      </tr>
+      <tr>
+        <td>$200 or more</td>
+        <td>80%</td>
       </tr>
     </table>
     <p class="list-text--small">
